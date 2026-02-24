@@ -31,11 +31,11 @@ Kumpulan link streaming TV Indonesia untuk Kodi.
 ## Status Channel Saat Ini
 
 <!-- STATUS_START -->
-**Terakhir Diupdate: 2026-02-24 19:49:02**
+**Terakhir Diupdate: 2026-02-24 20:05:06**
 
 - **Total Channel:** 238
-- **Online:** 🟢 191
-- **Offline:** 🔴 47
+- **Online:** 🟢 188
+- **Offline:** 🔴 50
 
 ### Daftar Channel Online
 - 🟢 ANIMAL PLANET
@@ -65,8 +65,6 @@ Kumpulan link streaming TV Indonesia untuk Kodi.
 - 🟢 BERITA SATU
 - 🟢 BIOSKOP INDONESIA
 - 🟢 BIZNET KIDS
-- 🟢 BTV
-- 🟢 BUDDY STAR
 - 🟢 BUDDY STAR
 - 🟢 CARTOON NETWORK
 - 🟢 CARTOONITO
@@ -77,7 +75,6 @@ Kumpulan link streaming TV Indonesia untuk Kodi.
 - 🟢 CELESTIAL MOVIES
 - 🟢 CGTN DOCUMENTARY
 - 🟢 CHANNEL JOWO
-- 🟢 CINEEDGE
 - 🟢 CITRA DRAMA
 - 🟢 CLUB MTV
 - 🟢 CNBC INDONESIA
@@ -107,7 +104,6 @@ Kumpulan link streaming TV Indonesia untuk Kodi.
 - 🟢 GALAXY
 - 🟢 GALAXY PREMIUM
 - 🟢 GLOBAL TREKKER
-- 🟢 GTV
 - 🟢 HANACARAKA TV
 - 🟢 HGTV
 - 🟢 HISTORY
@@ -119,11 +115,11 @@ Kumpulan link streaming TV Indonesia untuk Kodi.
 - 🟢 ID: BEIN SPORTS 2
 - 🟢 IMC INDONESIA MOVIE CHANNEL
 - 🟢 IMTV
-- 🟢 INEWS
 - 🟢 JAKTV
 - 🟢 JTV
 - 🟢 KBS KIDS
 - 🟢 KIX
+- 🟢 KOMPAS TV
 - 🟢 LIFE
 - 🟢 LIFETIME
 - 🟢 LOVE NATURE 4K
@@ -132,11 +128,11 @@ Kumpulan link streaming TV Indonesia untuk Kodi.
 - 🟢 MENTARI TV
 - 🟢 MENTARI TV
 - 🟢 METRO TV
-- 🟢 MNCTV
 - 🟢 MOONBUG KIDS
 - 🟢 MOTORVISION+
 - 🟢 MTV 00s
 - 🟢 MTV 80S
+- 🟢 MY KIDZ
 - 🟢 NAT GEO
 - 🟢 NAT GEO
 - 🟢 NAT GEO WILD
@@ -153,18 +149,18 @@ Kumpulan link streaming TV Indonesia untuk Kodi.
 - 🟢 ORIGINALS
 - 🟢 OUTDOOR CHANNEL
 - 🟢 OUTDOOR CHANNEL
+- 🟢 OUTDOOR CHANNEL
 - 🟢 PBS KIDS
 - 🟢 PLUTO TV NICK JR
 - 🟢 RADIO 51 TV
-- 🟢 RCTI
 - 🟢 RED BULL TV
-- 🟢 REFORMED 21
+- 🟢 ROCK ACTION
 - 🟢 ROCK ACTION
 - 🟢 ROCK ENTERTAINMENT
 - 🟢 RTV
-- 🟢 SCTV
 - 🟢 SINDO NEWS TV
 - 🟢 SMITHSONIAN CHANNEL
+- 🟢 SOCCER CHANNEL
 - 🟢 SPORTS TV
 - 🟢 SPORTSTARS 2
 - 🟢 SPORTSTARS 4
@@ -200,6 +196,7 @@ Kumpulan link streaming TV Indonesia untuk Kodi.
 - 🟢 TVRI Kalimantan Timur
 - 🟢 TVRI Lampung
 - 🟢 TVRI Maluku
+- 🟢 TVRI NASIONAL
 - 🟢 TVRI NTB
 - 🟢 TVRI NTT
 - 🟢 TVRI Papua
@@ -233,9 +230,12 @@ Kumpulan link streaming TV Indonesia untuk Kodi.
 ### Daftar Channel Offline
 - 🔴 AMERICA'S FUNNNIEST HOME VIDEOS AFV!
 - 🔴 ANIMAL PLANET
+- 🔴 BTV
+- 🔴 BUDDY STAR
 - 🔴 CARTOON NETWORK
 - 🔴 CCTV 16
 - 🔴 CCTV 5+
+- 🔴 CINEEDGE
 - 🔴 DISCOVERY ASIA
 - 🔴 DISCOVERY SCIENCE
 - 🔴 DUBAI SPORTS 1
@@ -244,11 +244,13 @@ Kumpulan link streaming TV Indonesia untuk Kodi.
 - 🔴 FAIL ARMY
 - 🔴 FASHION TV
 - 🔴 FASHION TV MIDNIGHT
+- 🔴 GTV
 - 🔴 INDOSIAR
+- 🔴 INEWS
 - 🔴 INSPIRA TV
 - 🔴 JUST FOR LAUGHS
-- 🔴 KOMPAS TV
 - 🔴 MALEO TV
+- 🔴 MNCTV
 - 🔴 MOJI
 - 🔴 MTV BIGGEST POP
 - 🔴 MTV CLASSIC
@@ -260,14 +262,13 @@ Kumpulan link streaming TV Indonesia untuk Kodi.
 - 🔴 MTV YO!
 - 🔴 MY CINEMA ASIA
 - 🔴 MY CINEMA EUROPE
-- 🔴 MY KIDZ
 - 🔴 NEW KPOP
 - 🔴 NHK WORLD
 - 🔴 ONE
-- 🔴 OUTDOOR CHANNEL
-- 🔴 ROCK ACTION
+- 🔴 RCTI
+- 🔴 REFORMED 21
 - 🔴 ROCK ENTERTAINMENT
-- 🔴 SOCCER CHANNEL
+- 🔴 SCTV
 - 🔴 SONY SPORTS 1
 - 🔴 SONY SPORTS 2
 - 🔴 SONY SPORTS 3
@@ -276,7 +277,6 @@ Kumpulan link streaming TV Indonesia untuk Kodi.
 - 🔴 STAR MOVIES HD
 - 🔴 TV5 MONDE ASIE
 - 🔴 TVN HD
-- 🔴 TVRI NASIONAL
 - 🔴 UNIFI SPORTS
 
 <!-- STATUS_END -->

@@ -1,646 +1,1109 @@
 #EXTM3U
-#EXTINF:0,/// TV NASIONAL /////
-#EXTINF:902, RCTI
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-https://raw.githubusercontent.com/Arrasyid22/inaldie/main/RCTI.m3u8
-#EXTINF:0, MNCTV
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000106/1024.m3u8
-#EXTINF:0, GTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000113/1024.m3u8
-#EXTINF:0, SCTV
-http://op-group1-swiftservehd-1.dens.tv/h/h217/02.m3u8
-#EXTINF:0, INDOSIAR
-http://210.210.155.35/qwr9ew/s/s04/01.m3u8
-#EXTINF:0, ANTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000022/1024.m3u8
-#EXTINF:0, TRANS TV
+#EXTINF:0 tvg-id="///TVNASIONAL/////.id" tvg-logo="" group-title="Lainnya",/// TV NASIONAL /////
+#EXTINF:902 tvg-id="RCTI.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/rcti.png" group-title="Lainnya",RCTI
+#EXTVLCOPT:http-referrer=https://visionplus.id
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9ba3e153ef8956d6e2b0684fcf74f58f:dbc28cb5c6426080f984a5b6d436bb30
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://d1abp075u76pbq.cloudfront.net/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd|Referer=https://www.visionplus.id/
+#EXTINF:0 tvg-id="MNCTV.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/mnctv.png" group-title="Lainnya",MNCTV
+#EXTVLCOPT:http-referrer=https://visionplus.id
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=828e0aba9825c3546a2831e4c0c36f7f:f85d3dcd38981368ab3da597e97ebdcc
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://d1abp075u76pbq.cloudfront.net/live/eds/MNCTV-HD/sa_dash_vmx/MNCTV-HD.mpd|Referer=https://www.visionplus.id/
+#EXTINF:0 tvg-id="GTV.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/gtv.png" group-title="Lainnya",GTV
+#EXTVLCOPT:http-referrer=https://visionplus.id
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=88f6c7cbd793374cb5f12d7e26dcd63b:e82daa7c7bfb03d99327463fdbd37336
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://d1abp075u76pbq.cloudfront.net/live/eds/GTV-HD/sa_dash_vmx/GTV-HD.mpd|Referer=https://www.visionplus.id/
+#EXTINF:0 tvg-id="SCTV.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/sctv.png" group-title="Lainnya",SCTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64)
+https://203.77.246.2:443/udp/239.1.1.108:5000
+#EXTINF:0 tvg-id="INDOSIAR.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/indosiar.png" group-title="Lainnya",INDOSIAR
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64)
+https://203.77.246.2:443/udp/239.1.1.110:5000
+#EXTINF:0 tvg-id="ANTV.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/antv.png" group-title="Lainnya",ANTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64)
+https://op-group1-swiftservehd-1.dens.tv/s/s07/index.m3u8
+#EXTINF:0 tvg-id="TRANSTV.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/transtv.png" group-title="Lainnya",TRANS TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8
-#EXTINF:0, Trans 7 
+#EXTINF:0 tvg-id="Trans7.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/trans7.png" group-title="Lainnya",Trans 7
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8
-#EXTINF:0, RTV
-#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:http-referrer=http://dens.tv
+#EXTINF:0 tvg-id="RTV.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/rtv.png" group-title="Lainnya",RTV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://op-group1-swiftservehd-1.dens.tv/h/h10/01.m3u8
-#EXTINF:0, MDTV
-#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:http-referrer=http://dens.tv
+#EXTINF:0 tvg-id="MDTV.id" tvg-logo="" group-title="Lainnya",MDTV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 http://op-group1-swiftservesd-1.dens.tv/h/h06/01.m3u8
-#EXTINF:0, MOJI
+#EXTINF:0 tvg-id="MOJI.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/moji.png" group-title="Lainnya",MOJI
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 http://45.126.83.51/qwr9ew/s/s41/index.m3u8
-#EXTINF:0, TVONE
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000018/1024.m3u8
-#EXTINF:0, METRO TV
-#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:http-referrer=http://dens.tv
-http://op-group1-swiftservehd-1.dens.tv/h/h12/01.m3u8
-#EXTINF:0, KOMPAS TV
-http://210.210.155.35/qwr9ew/s/s104/index.m3u8
-#EXTINF:0, INEWS
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000128/1024.m3u8
-#EXTINF:0, BERITA SATU
-#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:http-referrer=http://dens.tv
+#EXTINF:0 tvg-id="TVONE.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvone.png" group-title="Lainnya",TVONE
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64)
+https://op-group1-swiftservehd-1.dens.tv/h/h224/index.m3u8
+#EXTINF:0 tvg-id="METROTV.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/metrotv.png" group-title="Lainnya",METRO TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://edge.medcom.id/live-edge/smil:metro.smil/playlist.m3u8
+#EXTINF:0 tvg-id="KOMPASTV.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/kompastv.png" group-title="Lainnya",KOMPAS TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64)
+https://op-group1-swiftservehd-1.dens.tv/h/h234/index.m3u8
+#EXTINF:0 tvg-id="INEWS.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/inews.png" group-title="Lainnya",INEWS
+#EXTVLCOPT:http-referrer=https://visionplus.id
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a31cf5136789514b7e12b9cc99307c84:980e54d671ffc2b2f4cf54e75cae0ac2
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://d1abp075u76pbq.cloudfront.net/live/eds/iNewsTV-HDD/sa_dash_vmx/iNewsTV-HDD.mpd|Referer=https://www.visionplus.id/
+#EXTINF:0 tvg-id="BERITASATU.id" tvg-logo="" group-title="Lainnya",BERITA SATU
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://op-group1-swiftservehd-1.dens.tv/h/h128/index2.m3u8
-#EXTINF:0, CNBC INDONESIA
+#EXTINF:0 tvg-id="CNBCINDONESIA.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/cnbcindonesia.png" group-title="Lainnya",CNBC INDONESIA
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/playlist.m3u8
-#EXTINF:0, CNN INDONESIA
+#EXTINF:0 tvg-id="CNNINDONESIA.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/cnnindonesia.png" group-title="Lainnya",CNN INDONESIA
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8
-#EXTINF:0, TVRI NASIONAL
-http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRINasional)/index.m3u8
-#EXTINF:0, TVRI WORLD
-https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
-#EXTINF:0, TVRI SPORT
-https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
-#EXTINF:0, BERITA SATU
-#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:http-referrer=http://dens.tv
-https://op-group1-swiftservehd-1.dens.tv/h/h128/index2.m3u8
-#EXTINF:0, JAKTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000080/1024.m3u8
-#EXTINF:0, JTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000054/1024.m3u8
-#EXTINF:0,BALI TV
-#EXTVLCOPT:http-referrer=https://www.visionplustv.id/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000042/1024.m3u8
-#EXTINF:0, BANDUNG TV
-http://202.150.153.254:65500/bandungtvWEBSITE.m3u8
-#EXTINF:0, ELSHINTA
-#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:http-referrer=http://dens.tv
-https://op-group2-swiftservesd-1.dens.tv/s/s12/S4/mnf.m3u8
-#EXTINF:0, NUSANTARA TV
-#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:http-referrer=http://dens.tv
-https://op-group1-swiftservehd-1.dens.tv/h/h37/01.m3u8
-#EXTINF:0, CHANNEL JOWO
-#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:http-referrer=http://dens.tv
-https://op-group1-swiftservehd-1.dens.tv/h/h77/S4/mnf.m3u8
-#EXTINF:0,INSPIRA TV
-https://inspiratv.siar.us/inspiratv/live/playlist.m3u8
-#EXTINF:0, MENTARI TV
-#EXTVLCOPT:http-referrer=https://www.indihometv.com
-#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-https://cdn08jtedge.indihometv.com/dassdvr/134/mentaritv/manifest_w977134167_qRFZS.mpd?encp=&uid=&expp=
-https://cdn08jtedge.indihometv.com/dassdvr/134/mentaritv/manifest.mpd?encp=&uid=&expp=
-#EXTINF:0,MAGNA TV
-https://edge.medcom.id/live-edge/smil:magna.smil/chunklist_w1139386134_b3884000_sleng.m3u8
-#EXTINF:0, BTV
-#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:http-referrer=http://dens.tv/
-https://op-group1-swiftservehd-1.dens.tv/h/h210/index.m3u8?app_type=web&userid=lite&chname=BTV
-#EXTINF:0, SINDO NEWS TV
-#EXTVLCOPT:http-referrer=https://www.visionplustv.id/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000115/1024.m3u8
-#EXTINF:0,///// MOVIES /////
-https://///%20MOVIES%20/////
-#EXTINF:0,ROCK ACTION
-#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:http-referrer=http://dens.tv
-http://op-group1-swiftservehd-1.dens.tv/h/h15/index.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=ROCK_Action
-#EXTINF:0,ROCK ACTION
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000120/1024.m3u8
-#EXTINF:0,ROCK ENTERTAINMENT
-#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:http-referrer=http://dens.tv
-http://op-group1-swiftservehd-1.dens.tv/h/h16/01.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=ROCK_Entertainment_HD
-#EXTINF:0,ROCK ENTERTAINMENT
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000110/1024.m3u8
-#EXTINF:0,GALAXY PREMIUM
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000126/1024.m3u8
-#EXTINF:0, GALAXY
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000117/1024.m3u8
-#EXTINF:0, HITS MOVIES
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000139/1024.m3u8
-#EXTINF:0, STUDIO UNIVERSAL 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-https://cdn08jtedge.indihometv.com/dassdvr/130/studiouniversal/manifest.mpd
-#EXTINF:0, AXN
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000119/1024.m3u8
-#EXTINF:0, WARNER TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-https://cdnjkt913.transvision.co.id:1000/live/master/4/4028c6856c3db2cc016cf0b533fe73e3/manifest.mpd
-#EXTINF:0, ORIGINALS
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000154/1024.m3u8
-#EXTINF:0, CINEEDGE
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000145/1024.m3u8
-#EXTINF:0, UNIQUES
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000156/1024.m3u8
-#EXTINF:0, SUPRERRIX
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000155/1024.m3u8
-#EXTINF:0, BUDDY STAR
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000157/1024.m3u8
-#EXTINF:0, HITS NOW
-https://cdn08jtedge.indihometv.com/dassdvr/134/hitsnow/manifest.mpd
-#EXTINF:0, HITS
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000114/1024.m3u8
-#EXTINF:0, STAR MOVIES HD
-http://66.90.99.154:8278/starmovies_raj/playlist.m3u8?tid=mc42afe745533&ct=11448811&tsum=6df068af80da25d26a455054d0f909a6
-#EXTINF:0, VISION PRIME HD
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000130/1024.m3u8
-#EXTINF:0, CITRA DRAMA
-#EXTVLCOPT:http-referrer=https://www.indihometv.com
-#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-https://cdn08jtedge.indihometv.com/dassdvr/130/cdrama/manifest.mpd
-#EXTINF:0,BIOSKOP INDONESIA
-https://cdn08jtedge.indihometv.com/dassdvr/130/bioskopindonesia/manifest.mpd
-#EXTINF:0,IMC INDONESIA MOVIE CHANNEL
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000133/1024.m3u8
-#EXTINF:0,MY CINEMA ASIA
-#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:http-referrer=http://dens.tv
-http://op-group1-swiftservehd-1.dens.tv/h/h193/index.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=My_Cinema_Asia
-#EXTINF:0,MY CINEMA EUROPE
-#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:http-referrer=http://dens.tv
-http://op-group1-swiftservehd-1.dens.tv/h/h18/index.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=My_Cinema_Europe_HD
-#EXTINF:0, THRILL
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000001/1024.m3u8
-#EXTINF:0, THRILL
-#EXTVLCOPT:http-referrer=https://www.indihometv.com/
-#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-https://cdn10jtedge.indihometv.com/atm/DASH//thrill/manifest.mpd
-#EXTINF:0, KIX
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000037/1024.m3u8
-#EXTINF:0, ONE
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000123/1024.m3u8
-#EXTINF:0, ONE
-http://smart.cityq.xyz:8278/SetOne/playlist.m3u8?tid=MD7D1616979216169792&ct=19249&tsum=228e9d46280149ba7ecfdce2acb28ad9
-#EXTINF:0, TVN HD
-#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:http-referrer=http://dens.tv
-http://op-group1-swiftservehd-1.dens.tv/h/h20/index.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=tvN_HD
-#EXTINF:0, TVN MOVIES
-#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:http-referrer=http://dens.tv
-https://op-group1-swiftservehd-1.dens.tv/h/h21/01.m3u8
-#EXTINF:0, CELESTIAL MOVIES
-#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:http-referrer=http://dens.tv
-https://op-group1-swiftservehd-1.dens.tv/h/h14/index.m3u8
-#EXTINF:0, CELESTIAL MOVIES
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000032/1024.m3u8
-#EXTINF:0, CCM
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000028/1024.m3u8
-#EXTINF:0, Z BIOSKOP
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000061/1024.m3u8
-#EXTINF:0, 24/7 SEINFELD
-https://///%20RELIGI%20/////
-#EXTINF:0, LIFE
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000050/1024.m3u8
-#EXTINF:0, REFORMED 21
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000016/1024.m3u8
-#EXTINF:0, TBN ASIA
-#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:http-referrer=http://dens.tv
-https://op-group1-swiftservehd-1.dens.tv/s/s39/01.m3u8
-#EXTINF:0, I AM
-https://61146e7ab7a66.streamlock.net:8089/tes/1/chunklist_w2039205562.m3u8
-#EXTINF:0,///// KIDS /////
-https://///%20KIDS%20/////
-#EXTINF:0, BUDDY STAR
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000157/1024.m3u8
-#EXTINF:0, NICK JR
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000118/1024.m3u8
-#EXTINF:0, NICKELODEON
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000060/1024.m3u8
-#EXTINF:0, CBEEBIES
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000006/1024.m3u8
-#EXTINF:0, DUNIA ANAK
-#EXTVLCOPT:http-referrer=https://www.indihometv.com/
-#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-https://cdn08jtedge.indihometv.com/dassdvr/130/duniaanak/manifest.mpd
-#EXTINF:0, MY KIDZ
-#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:http-referrer=http://dens.tv
-http://op-group1-swiftservehd-1.dens.tv/h/h191/index.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=My_Kidz_HD
-#EXTINF:0, CARTOONITO
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-https://cdnjkt913.transvision.co.id:1000/live/master/3/4028c6856c3db2cc016d055f43ff37a5/manifest.mpd
-#EXTINF:0, CARTOON NETWORK
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-https://cdnjkt913.transvision.co.id:1000/live/master/4/4028c6856b8d2390016b9c3ee6c21d7c/manifest.mpd
-#EXTINF:0, CARTOON NETWORK
-https://maldivesn.net/hilaytv/cartoonnetwork
-#EXTINF:0, MENTARI TV
-#EXTVLCOPT:http-referrer=https://www.indihometv.com
-#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-https://cdn08jtedge.indihometv.com/dassdvr/134/mentaritv/manifest_w977134167_qRFZS.mpd?encp=&uid=&expp=
-#EXTINF:0, DREAMWORKS
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000164/1024.m3u8
-#EXTINF:0, FUN PLANET
-#EXTVLCOPT:http-referrer=https://www.indihometv.com
-#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-https://cdn10jtedge.indihometv.com/atm/DASH/indikids/manifest.mpd
-#EXTINF:0, ANIPLUS
-#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:http-referrer=http://dens.tv
-https://op-group1-swiftservehd-1.dens.tv/h/h201/02.m3u8
-#EXTINF:0, ZOOMOO
-https://zoomoo-samsungau.amagi.tv/playlist.m3u8
-#EXTINF:0,MOONBUG KIDS
-https://moonbug-rokuus.amagi.tv/playlist.m3u8
-#EXTINF:0, BIZNET KIDS
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-http://livestream.biznetvideo.net/biznet_kids/smil:kids.smil/manifest.mpd
-https://livestream.biznetvideo.net/biznet_kids/smil:kids.smil/manifest.mpd
-#EXTINF:0,PBS KIDS  
-https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8
-#EXTINF:0,DORA TV
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d14fb6c84dd37df3b4290c5/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=985&deviceId=5d14fb6c84dd37df3b4290c5&deviceVersion=DNT&appVersion=DNT&deviceDNT=0&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false
-#EXTINF:0,PLUTO TV NICK JR
-http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ca6748a37b88b269472dad9/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=978&deviceId=5ca6748a37b88b269472dad9&deviceVersion=DNT&appVersion=DNT&deviceDNT=0&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false
-#EXTINF:0, KBS KIDS
-http://mytv.dothome.co.kr/ch/catv/6.php
-#EXTINF:0, EBS KIDS
-https://ebsonair.ebs.co.kr/ebsufamilypc/familypc1m/playlist.m3u8
-#EXTINF:0, DISCOVERY CHANNEL HD
-https://bit.ly/discoman
-#EXTINF:0, BBC EARTH
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000116/1024.m3u8
-#EXTINF:0, ANIMAL PLANET
-#EXTVLCOPT:http-referrer=https://www.indihometv.com/
-#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-https://cdn08jtedge.indihometv.com/dassdvr/194/animalplanet/manifest.mpd
-#EXTINF:0, ANIMAL PLANET
-https://bit.ly/enimaplane
-#EXTINF:0, CRIME INVESTIGATION
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000070/1024.m3u8
-#EXTINF:0, HISTORY
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000027/1024.m3u8
-#EXTINF:0, HISTORY HIT
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Firefox/101.0 Safari/537.36 Edg/111.0.1661.43
-https://ldsaaaaaa-timeline-samsung-uk-azlgu.amagi.tv/playlist/ldsAAAAAA-timeline-samsung-uk/playlist.m3u8?ads.did=%7BPSID%7D&ads.dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.tc_string=%7BTC_STRING%7D&ads.coppa=0
-#EXTINF:0, GLOBAL TREKKER
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000132/1024.m3u8
-#EXTINF:0, DENS KNOWLEDGE
-#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:http-referrer=http://dens.tv
-https://op-group1-swiftservehd-1.dens.tv/h/h236/02.m3u8
-#EXTINF:0, LOVE NATURE 4K
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000127/1024.m3u8
-#EXTINF:0, NAT GEO
-https://stream1.freetv.fun/c63737a7732017a1a512dc57892ed3bb00a10cb8c668a190f9bc4df004b40ad8.ctv
-#EXTINF:0, NAT GEO
-https://bit.ly/ngcngc
-#EXTINF:0, NAT GEO WILD
-https://stream1.freetv.fun/83d549aab99fcaf9ac97138a2610ebd6df202945a14afa4b32db4785261f2927.ctv
-#EXTINF:0, NAT GEO WILD
-https://bit.ly/ncgwil
-#EXTINF:0, CGTN DOCUMENTARY
-https://english-livebkali.cgtn.com/live/doccgtn.m3u8
-#EXTINF:0, OUTDOOR CHANNEL
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000161/1024.m3u8
-#EXTINF:0, OUTDOOR CHANNEL
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8
-#EXTINF:0,SMITHSONIAN CHANNEL
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f21ea08007a49000762d349/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2bb094-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=984e1d1d-6d7f-4f0b-98a5-825ccb67a891&serverSideAds=false
-#EXTINF:0, DISCOVERY ASIA
-#EXTVLCOPT:http-referrer=https://www.indihometv.com/
-#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-https://cdn08jtedge.indihometv.com/dassdvr/194/discoveryasia/manifest.mpd
-#EXTINF:0, DISCOVERY SCIENCE
-https://live.shoq.com.pk/live/eds/Discovery_Science/DASH/Discovery_Science.mpd
-#EXTINF:0, 24/7 SHARK TANK
-https://///%20ENTERTAINMENT%20/////
-#EXTINF:0, HGTV
-https://bit.ly/hgtvhgtv
-#EXTINF:0, TLC
-https://bit.ly/tlctlctl
-#EXTINF:0, LIFETIME
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000046/1024.m3u8
-#EXTINF:0, HANACARAKA TV
-#EXTVLCOPT:http-referrer=https://www.visionplustv.id/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000020/1024.m3u8
-#EXTINF:0, CELEBRITIES TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000015/1024.m3u8
-#EXTINF:0, ENT
-#EXTVLCOPT:http-referrer=https://www.visionplustv.id/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000013/1024.m3u8
-#EXTINF:0, JUST FOR LAUGHS
-https://d1geua7w9myu7w.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ccslktftyouus-ssai-prd/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=1YNY&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai=SSSLIVE
-http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/60d32888e31a0300073d9f08/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
-#EXTINF:0, FAIL ARMY
-http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/554158e864526b29254ff105/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
-#EXTINF:0, AMERICA'S FUNNNIEST HOME VIDEOS AFV!
-https://futuretoday-afv-family-2-be.samsung.wurl.tv/playlist.m3u8
-#EXTINF:0, DFC DENS FOOD CHANNEL
-#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:http-referrer=http://dens.tv
-https://op-group1-swiftservehd-1.dens.tv/h/h221/02.m3u8
-#EXTINF:0, DENS PLAY
-#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:http-referrer=http://dens.tv
-https://op-group1-swiftservehd-1.dens.tv/h/h246/02.m3u8
-#EXTINF:0, DENS LIFESTYLE
-#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:http-referrer=http://dens.tv
-https://op-group1-swiftservehd-1.dens.tv/h/h222/02.m3u8
-#EXTINF:0, DENS SHOWBIZ
-#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:http-referrer=http://dens.tv
-https://op-group1-swiftservehd-1.dens.tv/h/h244/02.m3u8
-#EXTINF:0, NHK WORLD
-#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:http-referrer=http://dens.tv
-http://op-group1-swiftservehd-1.dens.tv/h/h23/index.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=NHK_WORLD-JAPAN%7Cuser-agent=Mozilla/5.0%20(Windows%20NT%2010.0;%20Win64;%20x64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/97.0.4692.99%20Safari/537.36&referrer=http://www.dens.tv/
-#EXTINF:0, NHK WORLD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000029/1024.m3u8
-#EXTINF:0, NHK WORLD PREMIUM
-https://cdn.skygo.mn/live/disk1/NHK_World_Premium/HLSv3-FTA/NHK_World_Premium.m3u8
-#EXTINF:0, ARIRANG
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000034/1024.m3u8
-#EXTINF:0, TRAVELXP
-https://travelxp-travelxp-1-eu.rakuten.wurl.tv/playlist.m3u8
-#EXTINF:0, WELLBEING TV 
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-en-plex/playlist.m3u8
-#EXTINF:0, OUTDOOR CHANNEL
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8
-#EXTINF:0, TV5 MONDE STYLE
-#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:http-referrer=http://dens.tv
-https://op-group1-swiftservehd-1.dens.tv/h/h216/02.m3u8
-#EXTINF:0, TV5 MONDE ASIE
-#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:http-referrer=http://dens.tv
-http://op-group1-swiftservehd-1.dens.tv/h/h312/index.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=TV5MONDE_ASIE
-#EXTINF:0, CREMA TV
-#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:http-referrer=http://dens.tv
-https://op-group1-swiftservehd-1.dens.tv/h/h202/02.m3u8
-#EXTINF:0, FASHION TV
-https://fashiontv-fashiontv-5-nl.samsung.wurl.tv/playlist.m3u8
-#EXTINF:0, FASHION TV MIDNIGHT
-https://fash1043.cloudycdn.services/slive/ftv_ftv_midnite_k1y_27049_midnite_secr_108_hls.smil/media.m3u8
-#EXTINF:0,RED BULL TV
-https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8
-#EXTINF:0,///// MUSIK /////
-https://///%20MUSIK%20/////
-#EXTINF:0,MTV LIVE
-http://66.90.99.154:8278/Weishimovie/playlist.m3u8?tid=MEEE4802495448024954&ct=19249&tsum=1731f56127d23a79a645f2d7d958dec7
-#EXTINF:0, MTV 80S
-http://iptv.prosto.tv:7000/ch130/video.m3u8
-#EXTINF:0, MTV 00s
-http://iptv.prosto.tv:7000/ch129/video.m3u8
-#EXTINF:0, MTV BIGGEST POP
-http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5d14fd1a252d35decbc4080c/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
-#EXTINF:0, MTV SPANKIN' NEW
-http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5d14fdb8ca91eedee1633117/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
-#EXTINF:0, MTV ROCKS
-http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/624303598e45140007d765c1/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
-#EXTINF:0, MTV YO!
-http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5d14fc31252d35decbc4080b/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
-#EXTINF:0, MTV FLOW LATINO
-http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5d3609cd6a6c78d7672f2a81/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
-#EXTINF:0, MTV REALITY
-http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/625eb3e245f5bc0007810046/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
-#EXTINF:0, MTV CLASSIC
-http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/635bfb89b5cd9b0007ca9d63/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
-#EXTINF:0, CLUB MTV
-http://iptv.prosto.tv:7000/ch125/video.m3u8
-#EXTINF:0, NOW 70S
-https://lightning-now70s-samsungnz.amagi.tv/playlist.m3u8
-#EXTINF:0, NOW 80S
-https://lightning-now80s-samsungnz.amagi.tv/playlist.m3u8
-#EXTINF:0, NOW ROCK
-https://lightning-now90s-samsungnz.amagi.tv/playlist.m3u8
-#EXTINF:0, MALEO TV
-https://play.accolamedia.id/accola/maleo.stream/playlist.m3u8
-#EXTINF:0, IMTV
-https://5bf7b725107e5.streamlock.net/imtv/imtv/playlist.m3u8
-#EXTINF:0, NEW KPOP
-https://8fd4e0b07d96480eb52382739cc8acce.mediatailor.us-east-1.amazonaws.com/v1/manifest/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_NewKID/76da8a34-9b9c-4920-b86f-934fbdaa2fcf/2.m3u8
-#EXTINF:0, DANCE TV
-#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:http-referrer=http://dens.tv
-https://op-group1-swiftservehd-1.dens.tv/h/h250/02.m3u8
-#EXTINF:0, STINGRAY CLASSICA
-#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:http-referrer=http://dens.tv
-https://op-group1-swiftservehd-1.dens.tv/h/h229/S4/mnf.m3u8
-#EXTINF:0,RADIO 51 TV
-http://59d7d6f47d7fc.streamlock.net/canale51/canale51/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:0,///// SPORTS /////
-https://///%20SPORTS%20/////
-#EXTINF:0, SPOTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000160/1024.m3u8
-#EXTINF:0, SPOTV2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000138/1024.m3u8
-#EXTINF:0,SOCCER CHANNEL
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000144/1024.m3u8
-#EXTINF:0, SPORTSTARS 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000124/1024.m3u8
-#EXTINF:0, SPORTSTARS 4
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000045/1024.m3u8
-#EXTINF:0, DAZN 1
-https://bit.ly/DY_DAZN_PT_1
-#EXTINF:0, DAZN 2
-https://bit.ly/DY_DAZN_PT_2
-#EXTINF:0, DAZN 3
-https://bit.ly/DY_DAZN_PT_3
-#EXTINF:0, DAZN 4
-https://bit.ly/DY_DAZN_PT_4
-#EXTINF:0, DAZN 5
-https://bit.ly/DY_DAZN_PT_5
-#EXTINF:0, BEIN SPORTS 1 EN
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1
-https://bit.ly/DY_BEINSPORTS1EN
-#EXTINF:0, BEIN SPORTS 2 EN
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1
-https://bit.ly/DY_BEINSPORTS2EN
-#EXTINF:0, BEIN SPORTS 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1
-https://bit.ly/DY_BEINSPORTS1
-#EXTINF:0, BEIN SPORTS 2
-https://bit.ly/DY_BEINSPORTS2
-#EXTINF:0, BEIN SPORTS 3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1
-https://bit.ly/DY_BEINSPORTS3
-#EXTINF:0, BEIN SPORTS 4
-https://bit.ly/DY_BEINSPORTS4
-#EXTINF:0, BEIN SPORTS 5
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1
-https://bit.ly/DY_BEINSPORTS5
-#EXTINF:0, BEIN SPORTS 6
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1
-https://bit.ly/DY_BEINSPORTS6
-#EXTINF:0, BEIN SPORTS 7
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1
-https://bit.ly/DY_BEINSPORTS7
-#EXTINF:0, BEIN SPORTS 8
-https://bit.ly/DY_BEINSPORTS8
-#EXTINF:0, BEIN SPORTS 9
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1
-https://bit.ly/DY_BEINSPORTS9
-#EXTINF:0, ID: BEIN SPORTS 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000148/1024.m3u8
-#EXTINF:0, ASTRO GRANDSTAND
-#EXTVLCOPT:http-user-agent=IPTVSmartersPlayer
-https://wahyu1ptv.pages.dev/AstroGrandStand-HD.m3u8
-#EXTINF:0, ASTRO PREMIER LEAGUE 2
-https://bit.ly/DY_ASTROPREMIERLEAGUE2
-#EXTINF:0, ASTRO FOOTBALL
-https://bit.ly/DY_ASTROFOOTBALL
-#EXTINF:0, BEIN SPORTS XTRA
-https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8
-#EXTINF:0, UK: SKY SPORTS MAIN EVENT
-https://bit.ly/DY_SKYSPORTSMAINEVENT
-#EXTINF:0, UK: SKY SPORTS PREMIER LEAGUE
-#EXTVLCOPT:http-user-agent=Goiptv/8.8.8
-https://bit.ly/DY_SKYSPORTSPREMLEAGUE
-#EXTINF:0, UK: SKY SPORTS FOOTBALL
-https://bit.ly/DY_SKYSPORTSFOOTBALL
-#EXTINF:0, UK: SKY SPORTS F1
-https://bit.ly/DY_SKYSPORTSF1
-#EXTINF:0, MOTORVISION+
-#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:http-referrer=http://dens.tv
-https://op-group1-swiftservehd-1.dens.tv/h/h09/01.m3u8?app_type=web&userid=lite&chname=Motorvision%2B
-#EXTINF:0, CCTV 5+
-http://smart.cityq.xyz:8278/cctv5plus/playlist.m3u8?tid=MBBB3644683836446838&ct=20241&tsum=61c5791ef7caa6174ca8935662423098
-#EXTINF:0, CCTV 16
-http://smart.cityq.xyz:8278/cctv16/playlist.m3u8?tid=MEAE5753509557535095&ct=20241&tsum=0100e5f18715743c267a04fd5efa2920
-#EXTINF:0, FIGHT SPORTS
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
-http://202.80.222.20/cdn/iptv/Tvod/001/channel2000163/1024.m3u8
-#EXTINF:0, SONY SPORTS 1
-https://tataplay.slivcdn.com//hls/live/2011747/TEN1HD/master.m3u8
-#EXTINF:0, SONY SPORTS 2
-https://tataplay.slivcdn.com/hls/live/2020434/TEN2HD/master.m3u8
-#EXTINF:0, SONY SPORTS 3
-https://tataplay.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8
-#EXTINF:0, SONY SPORTS 4
-https://tataplay.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8
-#EXTINF:0, SONY SPORTS 5
-https://tataplay.slivcdn.com/hls/live/2020593/SONYSIXHD/master.m3u8
-#EXTINF:0, TVRI SPORT
-https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
-#EXTINF:0, UNIFI SPORTS
-https://unifi-live01.secureswiftcontent.com/UnifiHD/live11.mpd
-#EXTINF:0, DUBAI SPORTS 1
-https://dmidspta.cdn.mgmlcdn.com/dubaisports/smil:dubaisports.stream.smil/chunklist.m3u8
-#EXTINF:0, DUBAI SPORTS 2
-https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist_b1600000.m3u8
-#EXTINF:0, DUBAI SPORTS 3
-https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/chunklist_b1600000.m3u8
-#EXTINF:0,STRONGMAN CHAMPIONS LEAGUE
-https://3f4b9dde8740443b9b90459fc7b67cdd.mediatailor.us-east-1.amazonaws.com/v1/manifest/04fd913bb278d8775298c26fdca9d9841f37601f/Samsung-gb_StrongmanChampionsLeague/e21d95be-bbb1-442c-bd84-71813dc764ce/0.m3u8
-#EXTINF:0,SPORTS TV
-http://live.sportstv.com.tr/hls/low/sportstv_fhd/index.m3u8#EXTINF:-1 tvg-logo="" group-title="Nasional", TVRI Nasional
-http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRINasional)/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Internasional", TVRI World
+#EXTINF:0 tvg-id="TVRINASIONAL.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvri.png" group-title="Regional",TVRI NASIONAL
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8
+#EXTINF:0 tvg-id="TVRIWORLD.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvri.png" group-title="Regional",TVRI WORLD
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Olahraga", TVRI Sport HD
+#EXTINF:0 tvg-id="TVRISPORT.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvri.png" group-title="Regional",TVRI SPORT
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Regional", TVRI Aceh
+#EXTINF:0 tvg-id="BERITASATU.id" tvg-logo="" group-title="Lainnya",BERITA SATU
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://op-group1-swiftservehd-1.dens.tv/h/h128/index2.m3u8
+#EXTINF:0 tvg-id="JAKTV.id" tvg-logo="" group-title="Lainnya",JAKTV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000080/1024.m3u8
+#EXTINF:0 tvg-id="JTV.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/jtv.png" group-title="Lainnya",JTV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000054/1024.m3u8
+#EXTINF:0 tvg-id="BALITV.id" tvg-logo="" group-title="Lainnya",BALI TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000042/1024.m3u8
+#EXTINF:0 tvg-id="BANDUNGTV.id" tvg-logo="" group-title="Lainnya",BANDUNG TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.150.153.254:65500/bandungtvWEBSITE.m3u8
+#EXTINF:0 tvg-id="ELSHINTA.id" tvg-logo="" group-title="Lainnya",ELSHINTA
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://op-group2-swiftservesd-1.dens.tv/s/s12/S4/mnf.m3u8
+#EXTINF:0 tvg-id="NUSANTARATV.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/nusantaratv.png" group-title="Lainnya",NUSANTARA TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.chooser_resolution_max=720p
+https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
+#EXTINF:0 tvg-id="CHANNELJOWO.id" tvg-logo="" group-title="Lainnya",CHANNEL JOWO
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://op-group1-swiftservehd-1.dens.tv/h/h77/S4/mnf.m3u8
+#EXTINF:0 tvg-id="INSPIRATV.id" tvg-logo="" group-title="Lainnya",INSPIRA TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://inspiratv.siar.us/inspiratv/live/playlist.m3u8
+#EXTINF:0 tvg-id="MENTARITV.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/mentaritv.png" group-title="Lainnya",MENTARI TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://cdn08jtedge.indihometv.com/dassdvr/134/mentaritv/manifest_w977134167_qRFZS.mpd?encp=&uid=&expp=
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://cdn08jtedge.indihometv.com/dassdvr/134/mentaritv/manifest.mpd?encp=&uid=&expp=
+#EXTINF:0 tvg-id="MAGNATV.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/magna.png" group-title="Lainnya",MAGNA TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://edge.medcom.id/live-edge/smil:magna.smil/chunklist_w1139386134_b3884000_sleng.m3u8
+#EXTINF:0 tvg-id="BTV.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/btv.png" group-title="Lainnya",BTV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://b1news.beritasatumedia.com/Beritasatu/B1News_manifest.m3u8
+#EXTINF:0 tvg-id="SINDONEWSTV.id" tvg-logo="" group-title="Lainnya",SINDO NEWS TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000115/1024.m3u8
+#EXTINF:0 tvg-id="/////MOVIES/////.id" tvg-logo="" group-title="Lainnya",///// MOVIES /////
+https://///%20MOVIES%20/////
+#EXTINF:0 tvg-id="ROCKACTION.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/rockaction.png" group-title="Lainnya",ROCK ACTION
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64)
+https://op-group1-swiftservehd-1.dens.tv/h/h218/index.m3u8
+#EXTINF:0 tvg-id="ROCKACTION.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/rockaction.png" group-title="Lainnya",ROCK ACTION
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64)
+https://op-group1-swiftservehd-1.dens.tv/h/h218/index.m3u8
+#EXTINF:0 tvg-id="ROCKENTERTAINMENT.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/rockentertainment.png" group-title="Lainnya",ROCK ENTERTAINMENT
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://op-group1-swiftservehd-1.dens.tv/h/h16/01.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=ROCK_Entertainment_HD
+#EXTINF:0 tvg-id="ROCKENTERTAINMENT.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/rockentertainment.png" group-title="Lainnya",ROCK ENTERTAINMENT
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000110/1024.m3u8
+#EXTINF:0 tvg-id="GALAXYPREMIUM.id" tvg-logo="" group-title="Lainnya",GALAXY PREMIUM
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000126/1024.m3u8
+#EXTINF:0 tvg-id="GALAXY.id" tvg-logo="" group-title="Lainnya",GALAXY
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000117/1024.m3u8
+#EXTINF:0 tvg-id="HITSMOVIES.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/hits.png" group-title="Lainnya",HITS MOVIES
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64)
+https://op-group1-swiftservehd-1.dens.tv/h/h206/index.m3u8
+#EXTINF:0 tvg-id="STUDIOUNIVERSAL.id" tvg-logo="" group-title="Lainnya",STUDIO UNIVERSAL
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://cdn08jtedge.indihometv.com/dassdvr/130/studiouniversal/manifest.mpd
+#EXTINF:0 tvg-id="AXN.id" tvg-logo="" group-title="Lainnya",AXN
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000119/1024.m3u8
+#EXTINF:0 tvg-id="WARNERTV.id" tvg-logo="" group-title="Lainnya",WARNER TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://cdnjkt913.transvision.co.id:1000/live/master/4/4028c6856c3db2cc016cf0b533fe73e3/manifest.mpd
+#EXTINF:0 tvg-id="ORIGINALS.id" tvg-logo="" group-title="Lainnya",ORIGINALS
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000154/1024.m3u8
+#EXTINF:0 tvg-id="CINEEDGE.id" tvg-logo="" group-title="Lainnya",CINEEDGE
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000145/1024.m3u8
+#EXTINF:0 tvg-id="UNIQUES.id" tvg-logo="" group-title="Lainnya",UNIQUES
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000156/1024.m3u8
+#EXTINF:0 tvg-id="SUPRERRIX.id" tvg-logo="" group-title="Lainnya",SUPRERRIX
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000155/1024.m3u8
+#EXTINF:0 tvg-id="BUDDYSTAR.id" tvg-logo="" group-title="Lainnya",BUDDY STAR
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000157/1024.m3u8
+#EXTINF:0 tvg-id="HITSNOW.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/hits.png" group-title="Lainnya",HITS NOW
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://cdn08jtedge.indihometv.com/dassdvr/134/hitsnow/manifest.mpd
+#EXTINF:0 tvg-id="HITS.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/hits.png" group-title="Lainnya",HITS
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64)
+https://op-group1-swiftservehd-1.dens.tv/h/h205/index.m3u8
+#EXTINF:0 tvg-id="STARMOVIESHD.id" tvg-logo="" group-title="Lainnya",STAR MOVIES HD
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://66.90.99.154:8278/starmovies_raj/playlist.m3u8?tid=mc42afe745533&ct=11448811&tsum=6df068af80da25d26a455054d0f909a6
+#EXTINF:0 tvg-id="VISIONPRIMEHD.id" tvg-logo="" group-title="Lainnya",VISION PRIME HD
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000130/1024.m3u8
+#EXTINF:0 tvg-id="CITRADRAMA.id" tvg-logo="" group-title="Lainnya",CITRA DRAMA
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://cdn08jtedge.indihometv.com/dassdvr/130/cdrama/manifest.mpd
+#EXTINF:0 tvg-id="BIOSKOPINDONESIA.id" tvg-logo="" group-title="Lainnya",BIOSKOP INDONESIA
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://cdn08jtedge.indihometv.com/dassdvr/130/bioskopindonesia/manifest.mpd
+#EXTINF:0 tvg-id="IMCINDONESIAMOVIECHANNEL.id" tvg-logo="" group-title="Lainnya",IMC INDONESIA MOVIE CHANNEL
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000133/1024.m3u8
+#EXTINF:0 tvg-id="MYCINEMAASIA.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/mycinema.png" group-title="Lainnya",MY CINEMA ASIA
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64)
+https://op-group1-swiftservehd-1.dens.tv/h/h193/index.m3u8
+#EXTINF:0 tvg-id="MYCINEMAEUROPE.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/mycinema.png" group-title="Lainnya",MY CINEMA EUROPE
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://op-group1-swiftservehd-1.dens.tv/h/h18/index.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=My_Cinema_Europe_HD
+#EXTINF:0 tvg-id="THRILL.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/thrill.png" group-title="Lainnya",THRILL
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64)
+https://op-group1-swiftservehd-1.dens.tv/h/h240/index.m3u8
+#EXTINF:0 tvg-id="THRILL.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/thrill.png" group-title="Lainnya",THRILL
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64)
+https://op-group1-swiftservehd-1.dens.tv/h/h240/index.m3u8
+#EXTINF:0 tvg-id="KIX.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/kix.png" group-title="Lainnya",KIX
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64)
+https://op-group1-swiftservehd-1.dens.tv/h/h220/index.m3u8
+#EXTINF:0 tvg-id="ONE.id" tvg-logo="" group-title="Lainnya",ONE
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000123/1024.m3u8
+#EXTINF:0 tvg-id="ONE.id" tvg-logo="" group-title="Lainnya",ONE
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://smart.cityq.xyz:8278/SetOne/playlist.m3u8?tid=MD7D1616979216169792&ct=19249&tsum=228e9d46280149ba7ecfdce2acb28ad9
+#EXTINF:0 tvg-id="TVNHD.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvn.png" group-title="Lainnya",TVN HD
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://op-group1-swiftservehd-1.dens.tv/h/h20/index.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=tvN_HD
+#EXTINF:0 tvg-id="TVNMOVIES.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvn.png" group-title="Lainnya",TVN MOVIES
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://op-group1-swiftservehd-1.dens.tv/h/h21/01.m3u8
+#EXTINF:0 tvg-id="CELESTIALMOVIES.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/celestialmovies.png" group-title="Lainnya",CELESTIAL MOVIES
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64)
+https://op-group1-swiftservehd-1.dens.tv/h/h212/index.m3u8
+#EXTINF:0 tvg-id="CELESTIALMOVIES.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/celestialmovies.png" group-title="Lainnya",CELESTIAL MOVIES
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64)
+https://op-group1-swiftservehd-1.dens.tv/h/h212/index.m3u8
+#EXTINF:0 tvg-id="CCM.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/ccm.png" group-title="Lainnya",CCM
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000028/1024.m3u8
+#EXTINF:0 tvg-id="ZBIOSKOP.id" tvg-logo="" group-title="Lainnya",Z BIOSKOP
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000061/1024.m3u8
+#EXTINF:0 tvg-id="24/7SEINFELD.id" tvg-logo="" group-title="Lainnya",24/7 SEINFELD
+https://///%20RELIGI%20/////
+#EXTINF:0 tvg-id="LIFE.id" tvg-logo="" group-title="Lainnya",LIFE
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000050/1024.m3u8
+#EXTINF:0 tvg-id="REFORMED21.id" tvg-logo="" group-title="Lainnya",REFORMED 21
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000016/1024.m3u8
+#EXTINF:0 tvg-id="TBNASIA.id" tvg-logo="" group-title="Lainnya",TBN ASIA
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://op-group1-swiftservehd-1.dens.tv/s/s39/01.m3u8
+#EXTINF:0 tvg-id="IAM.id" tvg-logo="" group-title="Lainnya",I AM
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://61146e7ab7a66.streamlock.net:8089/tes/1/chunklist_w2039205562.m3u8
+#EXTINF:0 tvg-id="/////KIDS/////.id" tvg-logo="" group-title="Lainnya",///// KIDS /////
+https://///%20KIDS%20/////
+#EXTINF:0 tvg-id="BUDDYSTAR.id" tvg-logo="" group-title="Lainnya",BUDDY STAR
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000157/1024.m3u8
+#EXTINF:0 tvg-id="NICKJR.id" tvg-logo="" group-title="Lainnya",NICK JR
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000118/1024.m3u8
+#EXTINF:0 tvg-id="NICKELODEON.id" tvg-logo="" group-title="Lainnya",NICKELODEON
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000060/1024.m3u8
+#EXTINF:0 tvg-id="CBEEBIES.id" tvg-logo="" group-title="Lainnya",CBEEBIES
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000006/1024.m3u8
+#EXTINF:0 tvg-id="DUNIAANAK.id" tvg-logo="" group-title="Lainnya",DUNIA ANAK
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://cdn08jtedge.indihometv.com/dassdvr/130/duniaanak/manifest.mpd
+#EXTINF:0 tvg-id="MYKIDZ.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/mykidz.png" group-title="Lainnya",MY KIDZ
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64)
+https://op-group1-swiftservehd-1.dens.tv/h/h191/index.m3u8
+#EXTINF:0 tvg-id="CARTOONITO.id" tvg-logo="" group-title="Lainnya",CARTOONITO
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://cdnjkt913.transvision.co.id:1000/live/master/3/4028c6856c3db2cc016d055f43ff37a5/manifest.mpd
+#EXTINF:0 tvg-id="CARTOONNETWORK.id" tvg-logo="" group-title="Lainnya",CARTOON NETWORK
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://cdnjkt913.transvision.co.id:1000/live/master/4/4028c6856b8d2390016b9c3ee6c21d7c/manifest.mpd
+#EXTINF:0 tvg-id="CARTOONNETWORK.id" tvg-logo="" group-title="Lainnya",CARTOON NETWORK
+https://maldivesn.net/hilaytv/cartoonnetwork
+#EXTINF:0 tvg-id="MENTARITV.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/mentaritv.png" group-title="Lainnya",MENTARI TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://cdn08jtedge.indihometv.com/dassdvr/134/mentaritv/manifest_w977134167_qRFZS.mpd?encp=&uid=&expp=
+#EXTINF:0 tvg-id="DREAMWORKS.id" tvg-logo="" group-title="Lainnya",DREAMWORKS
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000164/1024.m3u8
+#EXTINF:0 tvg-id="FUNPLANET.id" tvg-logo="" group-title="Lainnya",FUN PLANET
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://cdn10jtedge.indihometv.com/atm/DASH/indikids/manifest.mpd
+#EXTINF:0 tvg-id="ANIPLUS.id" tvg-logo="" group-title="Lainnya",ANIPLUS
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://op-group1-swiftservehd-1.dens.tv/h/h201/02.m3u8
+#EXTINF:0 tvg-id="ZOOMOO.id" tvg-logo="" group-title="Lainnya",ZOOMOO
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://zoomoo-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:0 tvg-id="MOONBUGKIDS.id" tvg-logo="" group-title="Lainnya",MOONBUG KIDS
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://moonbug-rokuus.amagi.tv/playlist.m3u8
+#EXTINF:0 tvg-id="BIZNETKIDS.id" tvg-logo="" group-title="Lainnya",BIZNET KIDS
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+http://livestream.biznetvideo.net/biznet_kids/smil:kids.smil/manifest.mpd
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://livestream.biznetvideo.net/biznet_kids/smil:kids.smil/manifest.mpd
+#EXTINF:0 tvg-id="PBSKIDS.id" tvg-logo="" group-title="Lainnya",PBS KIDS
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8
+#EXTINF:0 tvg-id="DORATV.id" tvg-logo="" group-title="Lainnya",DORA TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d14fb6c84dd37df3b4290c5/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=985&deviceId=5d14fb6c84dd37df3b4290c5&deviceVersion=DNT&appVersion=DNT&deviceDNT=0&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false
+#EXTINF:0 tvg-id="PLUTOTVNICKJR.id" tvg-logo="" group-title="Lainnya",PLUTO TV NICK JR
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ca6748a37b88b269472dad9/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=978&deviceId=5ca6748a37b88b269472dad9&deviceVersion=DNT&appVersion=DNT&deviceDNT=0&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false
+#EXTINF:0 tvg-id="KBSKIDS.id" tvg-logo="" group-title="Lainnya",KBS KIDS
+http://mytv.dothome.co.kr/ch/catv/6.php
+#EXTINF:0 tvg-id="EBSKIDS.id" tvg-logo="" group-title="Lainnya",EBS KIDS
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://ebsonair.ebs.co.kr/ebsufamilypc/familypc1m/playlist.m3u8
+#EXTINF:0 tvg-id="DISCOVERYCHANNELHD.id" tvg-logo="" group-title="Lainnya",DISCOVERY CHANNEL HD
+https://bit.ly/discoman
+#EXTINF:0 tvg-id="BBCEARTH.id" tvg-logo="" group-title="Lainnya",BBC EARTH
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000116/1024.m3u8
+#EXTINF:0 tvg-id="ANIMALPLANET.id" tvg-logo="" group-title="Lainnya",ANIMAL PLANET
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://cdn08jtedge.indihometv.com/dassdvr/194/animalplanet/manifest.mpd
+#EXTINF:0 tvg-id="ANIMALPLANET.id" tvg-logo="" group-title="Lainnya",ANIMAL PLANET
+https://bit.ly/enimaplane
+#EXTINF:0 tvg-id="CRIMEINVESTIGATION.id" tvg-logo="" group-title="Lainnya",CRIME INVESTIGATION
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000070/1024.m3u8
+#EXTINF:0 tvg-id="HISTORY.id" tvg-logo="" group-title="Lainnya",HISTORY
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000027/1024.m3u8
+#EXTINF:0 tvg-id="HISTORYHIT.id" tvg-logo="" group-title="Lainnya",HISTORY HIT
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://ldsaaaaaa-timeline-samsung-uk-azlgu.amagi.tv/playlist/ldsAAAAAA-timeline-samsung-uk/playlist.m3u8?ads.did=%7BPSID%7D&ads.dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.tc_string=%7BTC_STRING%7D&ads.coppa=0
+#EXTINF:0 tvg-id="GLOBALTREKKER.id" tvg-logo="" group-title="Lainnya",GLOBAL TREKKER
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000132/1024.m3u8
+#EXTINF:0 tvg-id="DENSKNOWLEDGE.id" tvg-logo="" group-title="Lainnya",DENS KNOWLEDGE
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://op-group1-swiftservehd-1.dens.tv/h/h236/02.m3u8
+#EXTINF:0 tvg-id="LOVENATURE4K.id" tvg-logo="" group-title="Lainnya",LOVE NATURE 4K
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000127/1024.m3u8
+#EXTINF:0 tvg-id="NATGEO.id" tvg-logo="" group-title="Lainnya",NAT GEO
+https://stream1.freetv.fun/c63737a7732017a1a512dc57892ed3bb00a10cb8c668a190f9bc4df004b40ad8.ctv
+#EXTINF:0 tvg-id="NATGEO.id" tvg-logo="" group-title="Lainnya",NAT GEO
+https://bit.ly/ngcngc
+#EXTINF:0 tvg-id="NATGEOWILD.id" tvg-logo="" group-title="Lainnya",NAT GEO WILD
+https://stream1.freetv.fun/83d549aab99fcaf9ac97138a2610ebd6df202945a14afa4b32db4785261f2927.ctv
+#EXTINF:0 tvg-id="NATGEOWILD.id" tvg-logo="" group-title="Lainnya",NAT GEO WILD
+https://bit.ly/ncgwil
+#EXTINF:0 tvg-id="CGTNDOCUMENTARY.id" tvg-logo="" group-title="Lainnya",CGTN DOCUMENTARY
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://english-livebkali.cgtn.com/live/doccgtn.m3u8
+#EXTINF:0 tvg-id="OUTDOORCHANNEL.id" tvg-logo="" group-title="Lainnya",OUTDOOR CHANNEL
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000161/1024.m3u8
+#EXTINF:0 tvg-id="OUTDOORCHANNEL.id" tvg-logo="" group-title="Lainnya",OUTDOOR CHANNEL
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8
+#EXTINF:0 tvg-id="SMITHSONIANCHANNEL.id" tvg-logo="" group-title="Lainnya",SMITHSONIAN CHANNEL
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f21ea08007a49000762d349/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2bb094-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=984e1d1d-6d7f-4f0b-98a5-825ccb67a891&serverSideAds=false
+#EXTINF:0 tvg-id="DISCOVERYASIA.id" tvg-logo="" group-title="Lainnya",DISCOVERY ASIA
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://cdn08jtedge.indihometv.com/dassdvr/194/discoveryasia/manifest.mpd
+#EXTINF:0 tvg-id="DISCOVERYSCIENCE.id" tvg-logo="" group-title="Lainnya",DISCOVERY SCIENCE
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://live.shoq.com.pk/live/eds/Discovery_Science/DASH/Discovery_Science.mpd
+#EXTINF:0 tvg-id="24/7SHARKTANK.id" tvg-logo="" group-title="Lainnya",24/7 SHARK TANK
+https://///%20ENTERTAINMENT%20/////
+#EXTINF:0 tvg-id="HGTV.id" tvg-logo="" group-title="Lainnya",HGTV
+https://bit.ly/hgtvhgtv
+#EXTINF:0 tvg-id="TLC.id" tvg-logo="" group-title="Lainnya",TLC
+https://bit.ly/tlctlctl
+#EXTINF:0 tvg-id="LIFETIME.id" tvg-logo="" group-title="Lainnya",LIFETIME
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000046/1024.m3u8
+#EXTINF:0 tvg-id="HANACARAKATV.id" tvg-logo="" group-title="Lainnya",HANACARAKA TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000020/1024.m3u8
+#EXTINF:0 tvg-id="CELEBRITIESTV.id" tvg-logo="" group-title="Lainnya",CELEBRITIES TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000015/1024.m3u8
+#EXTINF:0 tvg-id="ENT.id" tvg-logo="" group-title="Lainnya",ENT
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000013/1024.m3u8
+#EXTINF:0 tvg-id="JUSTFORLAUGHS.id" tvg-logo="" group-title="Lainnya",JUST FOR LAUGHS
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://d1geua7w9myu7w.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ccslktftyouus-ssai-prd/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=1YNY&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai=SSSLIVE
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/60d32888e31a0300073d9f08/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
+#EXTINF:0 tvg-id="FAILARMY.id" tvg-logo="" group-title="Lainnya",FAIL ARMY
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/554158e864526b29254ff105/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
+#EXTINF:0 tvg-id="AMERICA'SFUNNNIESTHOMEVIDEOSAFV!.id" tvg-logo="" group-title="Lainnya",AMERICA'S FUNNNIEST HOME VIDEOS AFV!
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://futuretoday-afv-family-2-be.samsung.wurl.tv/playlist.m3u8
+#EXTINF:0 tvg-id="DFCDENSFOODCHANNEL.id" tvg-logo="" group-title="Lainnya",DFC DENS FOOD CHANNEL
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://op-group1-swiftservehd-1.dens.tv/h/h221/02.m3u8
+#EXTINF:0 tvg-id="DENSPLAY.id" tvg-logo="" group-title="Lainnya",DENS PLAY
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://op-group1-swiftservehd-1.dens.tv/h/h246/02.m3u8
+#EXTINF:0 tvg-id="DENSLIFESTYLE.id" tvg-logo="" group-title="Lainnya",DENS LIFESTYLE
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://op-group1-swiftservehd-1.dens.tv/h/h222/02.m3u8
+#EXTINF:0 tvg-id="DENSSHOWBIZ.id" tvg-logo="" group-title="Lainnya",DENS SHOWBIZ
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://op-group1-swiftservehd-1.dens.tv/h/h244/02.m3u8
+#EXTINF:0 tvg-id="NHKWORLD.id" tvg-logo="" group-title="Lainnya",NHK WORLD
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://op-group1-swiftservehd-1.dens.tv/h/h23/index.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=NHK_WORLD-JAPAN%7Cuser-agent=Mozilla/5.0%20(Windows%20NT%2010.0;%20Win64;%20x64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/97.0.4692.99%20Safari/537.36&referrer=http://www.dens.tv/
+#EXTINF:0 tvg-id="NHKWORLD.id" tvg-logo="" group-title="Lainnya",NHK WORLD
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000029/1024.m3u8
+#EXTINF:0 tvg-id="NHKWORLDPREMIUM.id" tvg-logo="" group-title="Lainnya",NHK WORLD PREMIUM
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://cdn.skygo.mn/live/disk1/NHK_World_Premium/HLSv3-FTA/NHK_World_Premium.m3u8
+#EXTINF:0 tvg-id="ARIRANG.id" tvg-logo="" group-title="Lainnya",ARIRANG
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000034/1024.m3u8
+#EXTINF:0 tvg-id="TRAVELXP.id" tvg-logo="" group-title="Lainnya",TRAVELXP
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://travelxp-travelxp-1-eu.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:0 tvg-id="WELLBEINGTV.id" tvg-logo="" group-title="Lainnya",WELLBEING TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-en-plex/playlist.m3u8
+#EXTINF:0 tvg-id="OUTDOORCHANNEL.id" tvg-logo="" group-title="Lainnya",OUTDOOR CHANNEL
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8
+#EXTINF:0 tvg-id="TV5MONDESTYLE.id" tvg-logo="" group-title="Lainnya",TV5 MONDE STYLE
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://op-group1-swiftservehd-1.dens.tv/h/h216/02.m3u8
+#EXTINF:0 tvg-id="TV5MONDEASIE.id" tvg-logo="" group-title="Lainnya",TV5 MONDE ASIE
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://op-group1-swiftservehd-1.dens.tv/h/h312/index.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=TV5MONDE_ASIE
+#EXTINF:0 tvg-id="CREMATV.id" tvg-logo="" group-title="Lainnya",CREMA TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://op-group1-swiftservehd-1.dens.tv/h/h202/02.m3u8
+#EXTINF:0 tvg-id="FASHIONTV.id" tvg-logo="" group-title="Lainnya",FASHION TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://fashiontv-fashiontv-5-nl.samsung.wurl.tv/playlist.m3u8
+#EXTINF:0 tvg-id="FASHIONTVMIDNIGHT.id" tvg-logo="" group-title="Lainnya",FASHION TV MIDNIGHT
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://fash1043.cloudycdn.services/slive/ftv_ftv_midnite_k1y_27049_midnite_secr_108_hls.smil/media.m3u8
+#EXTINF:0 tvg-id="REDBULLTV.id" tvg-logo="" group-title="Lainnya",RED BULL TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8
+#EXTINF:0 tvg-id="/////MUSIK/////.id" tvg-logo="" group-title="Lainnya",///// MUSIK /////
+https://///%20MUSIK%20/////
+#EXTINF:0 tvg-id="MTVLIVE.id" tvg-logo="" group-title="Lainnya",MTV LIVE
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://66.90.99.154:8278/Weishimovie/playlist.m3u8?tid=MEEE4802495448024954&ct=19249&tsum=1731f56127d23a79a645f2d7d958dec7
+#EXTINF:0 tvg-id="MTV80S.id" tvg-logo="" group-title="Lainnya",MTV 80S
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://iptv.prosto.tv:7000/ch130/video.m3u8
+#EXTINF:0 tvg-id="MTV00s.id" tvg-logo="" group-title="Lainnya",MTV 00s
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://iptv.prosto.tv:7000/ch129/video.m3u8
+#EXTINF:0 tvg-id="MTVBIGGESTPOP.id" tvg-logo="" group-title="Lainnya",MTV BIGGEST POP
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5d14fd1a252d35decbc4080c/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
+#EXTINF:0 tvg-id="MTVSPANKIN'NEW.id" tvg-logo="" group-title="Lainnya",MTV SPANKIN' NEW
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5d14fdb8ca91eedee1633117/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
+#EXTINF:0 tvg-id="MTVROCKS.id" tvg-logo="" group-title="Lainnya",MTV ROCKS
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/624303598e45140007d765c1/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
+#EXTINF:0 tvg-id="MTVYO!.id" tvg-logo="" group-title="Lainnya",MTV YO!
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5d14fc31252d35decbc4080b/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
+#EXTINF:0 tvg-id="MTVFLOWLATINO.id" tvg-logo="" group-title="Lainnya",MTV FLOW LATINO
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5d3609cd6a6c78d7672f2a81/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
+#EXTINF:0 tvg-id="MTVREALITY.id" tvg-logo="" group-title="Lainnya",MTV REALITY
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/625eb3e245f5bc0007810046/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
+#EXTINF:0 tvg-id="MTVCLASSIC.id" tvg-logo="" group-title="Lainnya",MTV CLASSIC
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/635bfb89b5cd9b0007ca9d63/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
+#EXTINF:0 tvg-id="CLUBMTV.id" tvg-logo="" group-title="Lainnya",CLUB MTV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://iptv.prosto.tv:7000/ch125/video.m3u8
+#EXTINF:0 tvg-id="NOW70S.id" tvg-logo="" group-title="Lainnya",NOW 70S
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://lightning-now70s-samsungnz.amagi.tv/playlist.m3u8
+#EXTINF:0 tvg-id="NOW80S.id" tvg-logo="" group-title="Lainnya",NOW 80S
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://lightning-now80s-samsungnz.amagi.tv/playlist.m3u8
+#EXTINF:0 tvg-id="NOWROCK.id" tvg-logo="" group-title="Lainnya",NOW ROCK
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://lightning-now90s-samsungnz.amagi.tv/playlist.m3u8
+#EXTINF:0 tvg-id="MALEOTV.id" tvg-logo="" group-title="Lainnya",MALEO TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://play.accolamedia.id/accola/maleo.stream/playlist.m3u8
+#EXTINF:0 tvg-id="IMTV.id" tvg-logo="" group-title="Lainnya",IMTV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://5bf7b725107e5.streamlock.net/imtv/imtv/playlist.m3u8
+#EXTINF:0 tvg-id="NEWKPOP.id" tvg-logo="" group-title="Lainnya",NEW KPOP
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://8fd4e0b07d96480eb52382739cc8acce.mediatailor.us-east-1.amazonaws.com/v1/manifest/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_NewKID/76da8a34-9b9c-4920-b86f-934fbdaa2fcf/2.m3u8
+#EXTINF:0 tvg-id="DANCETV.id" tvg-logo="" group-title="Lainnya",DANCE TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://op-group1-swiftservehd-1.dens.tv/h/h250/02.m3u8
+#EXTINF:0 tvg-id="STINGRAYCLASSICA.id" tvg-logo="" group-title="Lainnya",STINGRAY CLASSICA
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://op-group1-swiftservehd-1.dens.tv/h/h229/S4/mnf.m3u8
+#EXTINF:0 tvg-id="RADIO51TV.id" tvg-logo="" group-title="Lainnya",RADIO 51 TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://59d7d6f47d7fc.streamlock.net/canale51/canale51/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-id="/////SPORTS/////.id" tvg-logo="" group-title="Lainnya",///// SPORTS /////
+https://///%20SPORTS%20/////
+#EXTINF:0 tvg-id="SPOTV.id" tvg-logo="" group-title="Lainnya",SPOTV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000160/1024.m3u8
+#EXTINF:0 tvg-id="SPOTV2.id" tvg-logo="" group-title="Lainnya",SPOTV2
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000138/1024.m3u8
+#EXTINF:0 tvg-id="SOCCERCHANNEL.id" tvg-logo="" group-title="Lainnya",SOCCER CHANNEL
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000144/1024.m3u8
+#EXTINF:0 tvg-id="SPORTSTARS2.id" tvg-logo="" group-title="Lainnya",SPORTSTARS 2
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000124/1024.m3u8
+#EXTINF:0 tvg-id="SPORTSTARS4.id" tvg-logo="" group-title="Lainnya",SPORTSTARS 4
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000045/1024.m3u8
+#EXTINF:0 tvg-id="DAZN1.id" tvg-logo="" group-title="Lainnya",DAZN 1
+https://bit.ly/DY_DAZN_PT_1
+#EXTINF:0 tvg-id="DAZN2.id" tvg-logo="" group-title="Lainnya",DAZN 2
+https://bit.ly/DY_DAZN_PT_2
+#EXTINF:0 tvg-id="DAZN3.id" tvg-logo="" group-title="Lainnya",DAZN 3
+https://bit.ly/DY_DAZN_PT_3
+#EXTINF:0 tvg-id="DAZN4.id" tvg-logo="" group-title="Lainnya",DAZN 4
+https://bit.ly/DY_DAZN_PT_4
+#EXTINF:0 tvg-id="DAZN5.id" tvg-logo="" group-title="Lainnya",DAZN 5
+https://bit.ly/DY_DAZN_PT_5
+#EXTINF:0 tvg-id="BEINSPORTS1EN.id" tvg-logo="" group-title="Lainnya",BEIN SPORTS 1 EN
+https://bit.ly/DY_BEINSPORTS1EN
+#EXTINF:0 tvg-id="BEINSPORTS2EN.id" tvg-logo="" group-title="Lainnya",BEIN SPORTS 2 EN
+https://bit.ly/DY_BEINSPORTS2EN
+#EXTINF:0 tvg-id="BEINSPORTS1.id" tvg-logo="" group-title="Lainnya",BEIN SPORTS 1
+https://bit.ly/DY_BEINSPORTS1
+#EXTINF:0 tvg-id="BEINSPORTS2.id" tvg-logo="" group-title="Lainnya",BEIN SPORTS 2
+https://bit.ly/DY_BEINSPORTS2
+#EXTINF:0 tvg-id="BEINSPORTS3.id" tvg-logo="" group-title="Lainnya",BEIN SPORTS 3
+https://bit.ly/DY_BEINSPORTS3
+#EXTINF:0 tvg-id="BEINSPORTS4.id" tvg-logo="" group-title="Lainnya",BEIN SPORTS 4
+https://bit.ly/DY_BEINSPORTS4
+#EXTINF:0 tvg-id="BEINSPORTS5.id" tvg-logo="" group-title="Lainnya",BEIN SPORTS 5
+https://bit.ly/DY_BEINSPORTS5
+#EXTINF:0 tvg-id="BEINSPORTS6.id" tvg-logo="" group-title="Lainnya",BEIN SPORTS 6
+https://bit.ly/DY_BEINSPORTS6
+#EXTINF:0 tvg-id="BEINSPORTS7.id" tvg-logo="" group-title="Lainnya",BEIN SPORTS 7
+https://bit.ly/DY_BEINSPORTS7
+#EXTINF:0 tvg-id="BEINSPORTS8.id" tvg-logo="" group-title="Lainnya",BEIN SPORTS 8
+https://bit.ly/DY_BEINSPORTS8
+#EXTINF:0 tvg-id="BEINSPORTS9.id" tvg-logo="" group-title="Lainnya",BEIN SPORTS 9
+https://bit.ly/DY_BEINSPORTS9
+#EXTINF:0 tvg-id="ID:BEINSPORTS2.id" tvg-logo="" group-title="Lainnya",ID: BEIN SPORTS 2
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000148/1024.m3u8
+#EXTINF:0 tvg-id="ASTROGRANDSTAND.id" tvg-logo="" group-title="Lainnya",ASTRO GRANDSTAND
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://wahyu1ptv.pages.dev/AstroGrandStand-HD.m3u8
+#EXTINF:0 tvg-id="ASTROPREMIERLEAGUE2.id" tvg-logo="" group-title="Lainnya",ASTRO PREMIER LEAGUE 2
+https://bit.ly/DY_ASTROPREMIERLEAGUE2
+#EXTINF:0 tvg-id="ASTROFOOTBALL.id" tvg-logo="" group-title="Lainnya",ASTRO FOOTBALL
+https://bit.ly/DY_ASTROFOOTBALL
+#EXTINF:0 tvg-id="BEINSPORTSXTRA.id" tvg-logo="" group-title="Lainnya",BEIN SPORTS XTRA
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8
+#EXTINF:0 tvg-id="UK:SKYSPORTSMAINEVENT.id" tvg-logo="" group-title="Lainnya",UK: SKY SPORTS MAIN EVENT
+https://bit.ly/DY_SKYSPORTSMAINEVENT
+#EXTINF:0 tvg-id="UK:SKYSPORTSPREMIERLEAGUE.id" tvg-logo="" group-title="Lainnya",UK: SKY SPORTS PREMIER LEAGUE
+https://bit.ly/DY_SKYSPORTSPREMLEAGUE
+#EXTINF:0 tvg-id="UK:SKYSPORTSFOOTBALL.id" tvg-logo="" group-title="Lainnya",UK: SKY SPORTS FOOTBALL
+https://bit.ly/DY_SKYSPORTSFOOTBALL
+#EXTINF:0 tvg-id="UK:SKYSPORTSF1.id" tvg-logo="" group-title="Lainnya",UK: SKY SPORTS F1
+https://bit.ly/DY_SKYSPORTSF1
+#EXTINF:0 tvg-id="MOTORVISION+.id" tvg-logo="" group-title="Lainnya",MOTORVISION+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://op-group1-swiftservehd-1.dens.tv/h/h09/01.m3u8?app_type=web&userid=lite&chname=Motorvision%2B
+#EXTINF:0 tvg-id="CCTV5+.id" tvg-logo="" group-title="Lainnya",CCTV 5+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://smart.cityq.xyz:8278/cctv5plus/playlist.m3u8?tid=MBBB3644683836446838&ct=20241&tsum=61c5791ef7caa6174ca8935662423098
+#EXTINF:0 tvg-id="CCTV16.id" tvg-logo="" group-title="Lainnya",CCTV 16
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://smart.cityq.xyz:8278/cctv16/playlist.m3u8?tid=MEAE5753509557535095&ct=20241&tsum=0100e5f18715743c267a04fd5efa2920
+#EXTINF:0 tvg-id="FIGHTSPORTS.id" tvg-logo="" group-title="Lainnya",FIGHT SPORTS
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000163/1024.m3u8
+#EXTINF:0 tvg-id="SONYSPORTS1.id" tvg-logo="" group-title="Lainnya",SONY SPORTS 1
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://tataplay.slivcdn.com//hls/live/2011747/TEN1HD/master.m3u8
+#EXTINF:0 tvg-id="SONYSPORTS2.id" tvg-logo="" group-title="Lainnya",SONY SPORTS 2
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://tataplay.slivcdn.com/hls/live/2020434/TEN2HD/master.m3u8
+#EXTINF:0 tvg-id="SONYSPORTS3.id" tvg-logo="" group-title="Lainnya",SONY SPORTS 3
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://tataplay.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8
+#EXTINF:0 tvg-id="SONYSPORTS4.id" tvg-logo="" group-title="Lainnya",SONY SPORTS 4
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://tataplay.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8
+#EXTINF:0 tvg-id="SONYSPORTS5.id" tvg-logo="" group-title="Lainnya",SONY SPORTS 5
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://tataplay.slivcdn.com/hls/live/2020593/SONYSIXHD/master.m3u8
+#EXTINF:0 tvg-id="TVRISPORT.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvri.png" group-title="Regional",TVRI SPORT
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
+#EXTINF:0 tvg-id="UNIFISPORTS.id" tvg-logo="" group-title="Lainnya",UNIFI SPORTS
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://unifi-live01.secureswiftcontent.com/UnifiHD/live11.mpd
+#EXTINF:0 tvg-id="DUBAISPORTS1.id" tvg-logo="" group-title="Lainnya",DUBAI SPORTS 1
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://dmidspta.cdn.mgmlcdn.com/dubaisports/smil:dubaisports.stream.smil/chunklist.m3u8
+#EXTINF:0 tvg-id="DUBAISPORTS2.id" tvg-logo="" group-title="Lainnya",DUBAI SPORTS 2
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist_b1600000.m3u8
+#EXTINF:0 tvg-id="DUBAISPORTS3.id" tvg-logo="" group-title="Lainnya",DUBAI SPORTS 3
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/chunklist_b1600000.m3u8
+#EXTINF:0 tvg-id="STRONGMANCHAMPIONSLEAGUE.id" tvg-logo="" group-title="Lainnya",STRONGMAN CHAMPIONS LEAGUE
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://3f4b9dde8740443b9b90459fc7b67cdd.mediatailor.us-east-1.amazonaws.com/v1/manifest/04fd913bb278d8775298c26fdca9d9841f37601f/Samsung-gb_StrongmanChampionsLeague/e21d95be-bbb1-442c-bd84-71813dc764ce/0.m3u8
+#EXTINF:0 tvg-id="SPORTSTV.id" tvg-logo="" group-title="Lainnya",SPORTS TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://live.sportstv.com.tr/hls/low/sportstv_fhd/index.m3u8#EXTINF:-1 tvg-logo="" group-title="Nasional", TVRI Nasional
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRINasional)/index.m3u8
+#EXTINF:-1 tvg-id="TVRIWorld.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvri.png" group-title="Internasional",TVRI World
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8
+#EXTINF:-1 tvg-id="TVRISportHD.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvri.png" group-title="Olahraga",TVRI Sport HD
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
+#EXTINF:-1 tvg-id="TVRIAceh.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvri.png" group-title="Regional",TVRI Aceh
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://ott-balancer.tvri.go.id/live/eds/Aceh/hls/Aceh.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Regional", TVRI Bali
+#EXTINF:-1 tvg-id="TVRIBali.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvri.png" group-title="Regional",TVRI Bali
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://ott-balancer.tvri.go.id/live/eds/Bali/hls/Bali.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Regional", TVRI Bangka Belitung
+#EXTINF:-1 tvg-id="TVRIBangkaBelitung.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvri.png" group-title="Regional",TVRI Bangka Belitung
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://ott-balancer.tvri.go.id/live/eds/Babel/hls/Babel.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Regional", TVRI Bengkulu
+#EXTINF:-1 tvg-id="TVRIBengkulu.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvri.png" group-title="Regional",TVRI Bengkulu
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://ott-balancer.tvri.go.id/live/eds/Bengkulu/hls/Bengkulu.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Regional", TVRI DKI Jakarta
+#EXTINF:-1 tvg-id="TVRIDKIJakarta.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvri.png" group-title="Regional",TVRI DKI Jakarta
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://ott-balancer.tvri.go.id/live/eds/DKI/hls/DKI.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Regional", TVRI Gorontalo
+#EXTINF:-1 tvg-id="TVRIGorontalo.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvri.png" group-title="Regional",TVRI Gorontalo
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://ott-balancer.tvri.go.id/live/eds/Gorontalo/hls/Gorontalo.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Regional", TVRI Jambi
+#EXTINF:-1 tvg-id="TVRIJambi.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvri.png" group-title="Regional",TVRI Jambi
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://ott-balancer.tvri.go.id/live/eds/Jambi/hls/Jambi.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Regional", TVRI Jawa Barat
+#EXTINF:-1 tvg-id="TVRIJawaBarat.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvri.png" group-title="Regional",TVRI Jawa Barat
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://ott-balancer.tvri.go.id/live/eds/Jabar/hls/Jabar.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Regional", TVRI Jawa Tengah
+#EXTINF:-1 tvg-id="TVRIJawaTengah.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvri.png" group-title="Regional",TVRI Jawa Tengah
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://ott-balancer.tvri.go.id/live/eds/Jateng/hls/Jateng.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Regional", TVRI Jawa Timur
+#EXTINF:-1 tvg-id="TVRIJawaTimur.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvri.png" group-title="Regional",TVRI Jawa Timur
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://ott-balancer.tvri.go.id/live/eds/Jatim/hls/Jatim.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Regional", TVRI Kalimantan Barat
+#EXTINF:-1 tvg-id="TVRIKalimantanBarat.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvri.png" group-title="Regional",TVRI Kalimantan Barat
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://ott-balancer.tvri.go.id/live/eds/Kalbar/hls/Kalbar.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Regional", TVRI Kalimantan Selatan
+#EXTINF:-1 tvg-id="TVRIKalimantanSelatan.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvri.png" group-title="Regional",TVRI Kalimantan Selatan
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://ott-balancer.tvri.go.id/live/eds/Kalsel/hls/Kalsel.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Regional", TVRI Kalimantan Tengah
+#EXTINF:-1 tvg-id="TVRIKalimantanTengah.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvri.png" group-title="Regional",TVRI Kalimantan Tengah
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://ott-balancer.tvri.go.id/live/eds/Kalteng/hls/Kalteng.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Regional", TVRI Kalimantan Timur
+#EXTINF:-1 tvg-id="TVRIKalimantanTimur.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvri.png" group-title="Regional",TVRI Kalimantan Timur
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://ott-balancer.tvri.go.id/live/eds/Kaltim/hls/Kaltim.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Regional", TVRI Lampung
+#EXTINF:-1 tvg-id="TVRILampung.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvri.png" group-title="Regional",TVRI Lampung
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://ott-balancer.tvri.go.id/live/eds/Lampung/hls/Lampung.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Regional", TVRI Maluku
+#EXTINF:-1 tvg-id="TVRIMaluku.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvri.png" group-title="Regional",TVRI Maluku
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://ott-balancer.tvri.go.id/live/eds/Ambon/hls/Ambon.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Regional", TVRI NTB
+#EXTINF:-1 tvg-id="TVRINTB.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvri.png" group-title="Regional",TVRI NTB
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://ott-balancer.tvri.go.id/live/eds/NTB/hls/NTB.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Regional", TVRI NTT
+#EXTINF:-1 tvg-id="TVRINTT.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvri.png" group-title="Regional",TVRI NTT
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://ott-balancer.tvri.go.id/live/eds/NTT/hls/NTT.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Regional", TVRI Papua
+#EXTINF:-1 tvg-id="TVRIPapua.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvri.png" group-title="Regional",TVRI Papua
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://ott-balancer.tvri.go.id/live/eds/Papua/hls/Papua.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Regional", TVRI Papua Barat
+#EXTINF:-1 tvg-id="TVRIPapuaBarat.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvri.png" group-title="Regional",TVRI Papua Barat
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://ott-balancer.tvri.go.id/live/eds/Pabar/hls/Pabar.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Regional", TVRI Riau
+#EXTINF:-1 tvg-id="TVRIRiau.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvri.png" group-title="Regional",TVRI Riau
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://ott-balancer.tvri.go.id/live/eds/Riau/hlstl/Riau.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Regional", TVRI Sulawesi Barat
+#EXTINF:-1 tvg-id="TVRISulawesiBarat.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvri.png" group-title="Regional",TVRI Sulawesi Barat
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://ott-balancer.tvri.go.id/live/eds/Sulbar/hls/Sulbar.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Regional", TVRI Sulawesi Selatan
+#EXTINF:-1 tvg-id="TVRISulawesiSelatan.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvri.png" group-title="Regional",TVRI Sulawesi Selatan
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://ott-balancer.tvri.go.id/live/eds/Sulsel/hls/Sulsel.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Regional", TVRI Sulawesi Tengah
+#EXTINF:-1 tvg-id="TVRISulawesiTengah.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvri.png" group-title="Regional",TVRI Sulawesi Tengah
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://ott-balancer.tvri.go.id/live/eds/Sulteng/hls/Sulteng.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Regional", TVRI Sulawesi Tenggara
+#EXTINF:-1 tvg-id="TVRISulawesiTenggara.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvri.png" group-title="Regional",TVRI Sulawesi Tenggara
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://ott-balancer.tvri.go.id/live/eds/Sultra/hls/Sultra.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Regional", TVRI Sulawesi Utara
+#EXTINF:-1 tvg-id="TVRISulawesiUtara.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvri.png" group-title="Regional",TVRI Sulawesi Utara
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://ott-balancer.tvri.go.id/live/eds/Sulut/hls/Sulut.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Regional", TVRI Sumatera Barat
+#EXTINF:-1 tvg-id="TVRISumateraBarat.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvri.png" group-title="Regional",TVRI Sumatera Barat
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://ott-balancer.tvri.go.id/live/eds/Sumbar/hls/Sumbar.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Regional", TVRI Sumatera Selatan
+#EXTINF:-1 tvg-id="TVRISumateraSelatan.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvri.png" group-title="Regional",TVRI Sumatera Selatan
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://ott-balancer.tvri.go.id/live/eds/Sumsel/hls/Sumsel.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Regional", TVRI Sumatera Utara
+#EXTINF:-1 tvg-id="TVRISumateraUtara.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvri.png" group-title="Regional",TVRI Sumatera Utara
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://ott-balancer.tvri.go.id/live/eds/Sumut/hls/Sumut.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Regional", TVRI Yogyakarta
+#EXTINF:-1 tvg-id="TVRIYogyakarta.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/tvri.png" group-title="Regional",TVRI Yogyakarta
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 https://ott-balancer.tvri.go.id/live/eds/Jogjakarta/hls/Jogjakarta.m3u8
