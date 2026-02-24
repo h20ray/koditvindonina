@@ -31,11 +31,11 @@ Kumpulan link streaming TV Indonesia untuk Kodi.
 ## Status Channel Saat Ini
 
 <!-- STATUS_START -->
-**Terakhir Diupdate: 2026-02-24 19:12:58**
+**Terakhir Diupdate: 2026-02-24 19:49:02**
 
-- **Total Channel:** 206
-- **Online:** 🟢 160
-- **Offline:** 🔴 46
+- **Total Channel:** 238
+- **Online:** 🟢 191
+- **Offline:** 🔴 47
 
 ### Daftar Channel Online
 - 🟢 ANIMAL PLANET
@@ -137,7 +137,6 @@ Kumpulan link streaming TV Indonesia untuk Kodi.
 - 🟢 MOTORVISION+
 - 🟢 MTV 00s
 - 🟢 MTV 80S
-- 🟢 MY KIDZ
 - 🟢 NAT GEO
 - 🟢 NAT GEO
 - 🟢 NAT GEO WILD
@@ -154,7 +153,6 @@ Kumpulan link streaming TV Indonesia untuk Kodi.
 - 🟢 ORIGINALS
 - 🟢 OUTDOOR CHANNEL
 - 🟢 OUTDOOR CHANNEL
-- 🟢 OUTDOOR CHANNEL
 - 🟢 PBS KIDS
 - 🟢 PLUTO TV NICK JR
 - 🟢 RADIO 51 TV
@@ -164,8 +162,9 @@ Kumpulan link streaming TV Indonesia untuk Kodi.
 - 🟢 ROCK ACTION
 - 🟢 ROCK ENTERTAINMENT
 - 🟢 RTV
+- 🟢 SCTV
+- 🟢 SINDO NEWS TV
 - 🟢 SMITHSONIAN CHANNEL
-- 🟢 SOCCER CHANNEL
 - 🟢 SPORTS TV
 - 🟢 SPORTSTARS 2
 - 🟢 SPORTSTARS 4
@@ -185,9 +184,41 @@ Kumpulan link streaming TV Indonesia untuk Kodi.
 - 🟢 TV5 MONDE STYLE
 - 🟢 TVN MOVIES
 - 🟢 TVONE
+- 🟢 TVRI Aceh
+- 🟢 TVRI Bali
+- 🟢 TVRI Bangka Belitung
+- 🟢 TVRI Bengkulu
+- 🟢 TVRI DKI Jakarta
+- 🟢 TVRI Gorontalo
+- 🟢 TVRI Jambi
+- 🟢 TVRI Jawa Barat
+- 🟢 TVRI Jawa Tengah
+- 🟢 TVRI Jawa Timur
+- 🟢 TVRI Kalimantan Barat
+- 🟢 TVRI Kalimantan Selatan
+- 🟢 TVRI Kalimantan Tengah
+- 🟢 TVRI Kalimantan Timur
+- 🟢 TVRI Lampung
+- 🟢 TVRI Maluku
+- 🟢 TVRI NTB
+- 🟢 TVRI NTT
+- 🟢 TVRI Papua
+- 🟢 TVRI Papua Barat
+- 🟢 TVRI Riau
 - 🟢 TVRI SPORT
 - 🟢 TVRI SPORT
+- 🟢 TVRI Sport HD
+- 🟢 TVRI Sulawesi Barat
+- 🟢 TVRI Sulawesi Selatan
+- 🟢 TVRI Sulawesi Tengah
+- 🟢 TVRI Sulawesi Tenggara
+- 🟢 TVRI Sulawesi Utara
+- 🟢 TVRI Sumatera Barat
+- 🟢 TVRI Sumatera Selatan
+- 🟢 TVRI Sumatera Utara
 - 🟢 TVRI WORLD
+- 🟢 TVRI World
+- 🟢 TVRI Yogyakarta
 - 🟢 UK: SKY SPORTS F1
 - 🟢 UK: SKY SPORTS FOOTBALL
 - 🟢 UK: SKY SPORTS MAIN EVENT
@@ -229,13 +260,14 @@ Kumpulan link streaming TV Indonesia untuk Kodi.
 - 🔴 MTV YO!
 - 🔴 MY CINEMA ASIA
 - 🔴 MY CINEMA EUROPE
+- 🔴 MY KIDZ
 - 🔴 NEW KPOP
 - 🔴 NHK WORLD
 - 🔴 ONE
+- 🔴 OUTDOOR CHANNEL
 - 🔴 ROCK ACTION
 - 🔴 ROCK ENTERTAINMENT
-- 🔴 SCTV
-- 🔴 SINDO NEWS TV
+- 🔴 SOCCER CHANNEL
 - 🔴 SONY SPORTS 1
 - 🔴 SONY SPORTS 2
 - 🔴 SONY SPORTS 3

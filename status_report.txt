@@ -1,6 +1,6 @@
 Laporan Status Channel M3U - indonina.m3u
-Dibuat tanggal: 2026-02-24 19:12:58
-Total: 206 | Online: 160 | Offline: 46
+Dibuat tanggal: 2026-02-24 19:49:02
+Total: 238 | Online: 191 | Offline: 47
 ============================================================
 
 [ONLINE] ANIMAL PLANET
@@ -399,10 +399,6 @@ Status: Online (200)
 URL:    http://iptv.prosto.tv:7000/ch130/video.m3u8
 Status: Online (200)
 ------------------------------------------------------------
-[ONLINE] MY KIDZ
-URL:    http://op-group1-swiftservehd-1.dens.tv/h/h191/index.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=My_Kidz_HD
-Status: Online (200)
-------------------------------------------------------------
 [ONLINE] NAT GEO
 URL:    https://bit.ly/ngcngc
 Status: Online (200)
@@ -460,10 +456,6 @@ URL:    http://202.80.222.20/cdn/iptv/Tvod/001/channel2000154/1024.m3u8
 Status: Online (200)
 ------------------------------------------------------------
 [ONLINE] OUTDOOR CHANNEL
-URL:    http://202.80.222.20/cdn/iptv/Tvod/001/channel2000161/1024.m3u8
-Status: Online (200)
-------------------------------------------------------------
-[ONLINE] OUTDOOR CHANNEL
 URL:    https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8
 Status: Online (200)
 ------------------------------------------------------------
@@ -507,16 +499,20 @@ Status: Online (200)
 URL:    https://op-group1-swiftservehd-1.dens.tv/h/h10/01.m3u8
 Status: Online (200)
 ------------------------------------------------------------
+[ONLINE] SCTV
+URL:    http://op-group1-swiftservehd-1.dens.tv/h/h217/02.m3u8
+Status: Online (200)
+------------------------------------------------------------
+[ONLINE] SINDO NEWS TV
+URL:    http://202.80.222.20/cdn/iptv/Tvod/001/channel2000115/1024.m3u8
+Status: Online (200)
+------------------------------------------------------------
 [ONLINE] SMITHSONIAN CHANNEL
 URL:    http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f21ea08007a49000762d349/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2bb094-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=984e1d1d-6d7f-4f0b-98a5-825ccb67a891&serverSideAds=false
 Status: Online (200)
 ------------------------------------------------------------
-[ONLINE] SOCCER CHANNEL
-URL:    http://202.80.222.20/cdn/iptv/Tvod/001/channel2000144/1024.m3u8
-Status: Online (200)
-------------------------------------------------------------
 [ONLINE] SPORTS TV
-URL:    http://live.sportstv.com.tr/hls/low/sportstv_fhd/index.m3u8
+URL:    http://live.sportstv.com.tr/hls/low/sportstv_fhd/index.m3u8#EXTINF:-1 tvg-logo="" group-title="Nasional", TVRI Nasional
 Status: Online (200)
 ------------------------------------------------------------
 [ONLINE] SPORTSTARS 2
@@ -556,11 +552,11 @@ URL:    https://op-group1-swiftservehd-1.dens.tv/s/s39/01.m3u8
 Status: Online (200)
 ------------------------------------------------------------
 [ONLINE] THRILL
-URL:    https://cdn10jtedge.indihometv.com/atm/DASH//thrill/manifest.mpd
+URL:    http://202.80.222.20/cdn/iptv/Tvod/001/channel2000001/1024.m3u8
 Status: Online (200)
 ------------------------------------------------------------
 [ONLINE] THRILL
-URL:    http://202.80.222.20/cdn/iptv/Tvod/001/channel2000001/1024.m3u8
+URL:    https://cdn10jtedge.indihometv.com/atm/DASH//thrill/manifest.mpd
 Status: Online (200)
 ------------------------------------------------------------
 [ONLINE] TLC
@@ -591,16 +587,144 @@ Status: Online (200)
 URL:    http://202.80.222.20/cdn/iptv/Tvod/001/channel2000018/1024.m3u8
 Status: Online (200)
 ------------------------------------------------------------
+[ONLINE] TVRI Aceh
+URL:    https://ott-balancer.tvri.go.id/live/eds/Aceh/hls/Aceh.m3u8
+Status: Online (200)
+------------------------------------------------------------
+[ONLINE] TVRI Bali
+URL:    https://ott-balancer.tvri.go.id/live/eds/Bali/hls/Bali.m3u8
+Status: Online (200)
+------------------------------------------------------------
+[ONLINE] TVRI Bangka Belitung
+URL:    https://ott-balancer.tvri.go.id/live/eds/Babel/hls/Babel.m3u8
+Status: Online (200)
+------------------------------------------------------------
+[ONLINE] TVRI Bengkulu
+URL:    https://ott-balancer.tvri.go.id/live/eds/Bengkulu/hls/Bengkulu.m3u8
+Status: Online (200)
+------------------------------------------------------------
+[ONLINE] TVRI DKI Jakarta
+URL:    https://ott-balancer.tvri.go.id/live/eds/DKI/hls/DKI.m3u8
+Status: Online (200)
+------------------------------------------------------------
+[ONLINE] TVRI Gorontalo
+URL:    https://ott-balancer.tvri.go.id/live/eds/Gorontalo/hls/Gorontalo.m3u8
+Status: Online (200)
+------------------------------------------------------------
+[ONLINE] TVRI Jambi
+URL:    https://ott-balancer.tvri.go.id/live/eds/Jambi/hls/Jambi.m3u8
+Status: Online (200)
+------------------------------------------------------------
+[ONLINE] TVRI Jawa Barat
+URL:    https://ott-balancer.tvri.go.id/live/eds/Jabar/hls/Jabar.m3u8
+Status: Online (200)
+------------------------------------------------------------
+[ONLINE] TVRI Jawa Tengah
+URL:    https://ott-balancer.tvri.go.id/live/eds/Jateng/hls/Jateng.m3u8
+Status: Online (200)
+------------------------------------------------------------
+[ONLINE] TVRI Jawa Timur
+URL:    https://ott-balancer.tvri.go.id/live/eds/Jatim/hls/Jatim.m3u8
+Status: Online (200)
+------------------------------------------------------------
+[ONLINE] TVRI Kalimantan Barat
+URL:    https://ott-balancer.tvri.go.id/live/eds/Kalbar/hls/Kalbar.m3u8
+Status: Online (200)
+------------------------------------------------------------
+[ONLINE] TVRI Kalimantan Selatan
+URL:    https://ott-balancer.tvri.go.id/live/eds/Kalsel/hls/Kalsel.m3u8
+Status: Online (200)
+------------------------------------------------------------
+[ONLINE] TVRI Kalimantan Tengah
+URL:    https://ott-balancer.tvri.go.id/live/eds/Kalteng/hls/Kalteng.m3u8
+Status: Online (200)
+------------------------------------------------------------
+[ONLINE] TVRI Kalimantan Timur
+URL:    https://ott-balancer.tvri.go.id/live/eds/Kaltim/hls/Kaltim.m3u8
+Status: Online (200)
+------------------------------------------------------------
+[ONLINE] TVRI Lampung
+URL:    https://ott-balancer.tvri.go.id/live/eds/Lampung/hls/Lampung.m3u8
+Status: Online (200)
+------------------------------------------------------------
+[ONLINE] TVRI Maluku
+URL:    https://ott-balancer.tvri.go.id/live/eds/Ambon/hls/Ambon.m3u8
+Status: Online (200)
+------------------------------------------------------------
+[ONLINE] TVRI NTB
+URL:    https://ott-balancer.tvri.go.id/live/eds/NTB/hls/NTB.m3u8
+Status: Online (200)
+------------------------------------------------------------
+[ONLINE] TVRI NTT
+URL:    https://ott-balancer.tvri.go.id/live/eds/NTT/hls/NTT.m3u8
+Status: Online (200)
+------------------------------------------------------------
+[ONLINE] TVRI Papua
+URL:    https://ott-balancer.tvri.go.id/live/eds/Papua/hls/Papua.m3u8
+Status: Online (200)
+------------------------------------------------------------
+[ONLINE] TVRI Papua Barat
+URL:    https://ott-balancer.tvri.go.id/live/eds/Pabar/hls/Pabar.m3u8
+Status: Online (200)
+------------------------------------------------------------
+[ONLINE] TVRI Riau
+URL:    https://ott-balancer.tvri.go.id/live/eds/Riau/hlstl/Riau.m3u8
+Status: Online (200)
+------------------------------------------------------------
 [ONLINE] TVRI SPORT
 URL:    https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
 Status: Online (200)
 ------------------------------------------------------------
 [ONLINE] TVRI SPORT
 URL:    https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
+Status: Online (200)
+------------------------------------------------------------
+[ONLINE] TVRI Sport HD
+URL:    https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
+Status: Online (200)
+------------------------------------------------------------
+[ONLINE] TVRI Sulawesi Barat
+URL:    https://ott-balancer.tvri.go.id/live/eds/Sulbar/hls/Sulbar.m3u8
+Status: Online (200)
+------------------------------------------------------------
+[ONLINE] TVRI Sulawesi Selatan
+URL:    https://ott-balancer.tvri.go.id/live/eds/Sulsel/hls/Sulsel.m3u8
+Status: Online (200)
+------------------------------------------------------------
+[ONLINE] TVRI Sulawesi Tengah
+URL:    https://ott-balancer.tvri.go.id/live/eds/Sulteng/hls/Sulteng.m3u8
+Status: Online (200)
+------------------------------------------------------------
+[ONLINE] TVRI Sulawesi Tenggara
+URL:    https://ott-balancer.tvri.go.id/live/eds/Sultra/hls/Sultra.m3u8
+Status: Online (200)
+------------------------------------------------------------
+[ONLINE] TVRI Sulawesi Utara
+URL:    https://ott-balancer.tvri.go.id/live/eds/Sulut/hls/Sulut.m3u8
+Status: Online (200)
+------------------------------------------------------------
+[ONLINE] TVRI Sumatera Barat
+URL:    https://ott-balancer.tvri.go.id/live/eds/Sumbar/hls/Sumbar.m3u8
+Status: Online (200)
+------------------------------------------------------------
+[ONLINE] TVRI Sumatera Selatan
+URL:    https://ott-balancer.tvri.go.id/live/eds/Sumsel/hls/Sumsel.m3u8
+Status: Online (200)
+------------------------------------------------------------
+[ONLINE] TVRI Sumatera Utara
+URL:    https://ott-balancer.tvri.go.id/live/eds/Sumut/hls/Sumut.m3u8
 Status: Online (200)
 ------------------------------------------------------------
 [ONLINE] TVRI WORLD
 URL:    https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
+Status: Online (200)
+------------------------------------------------------------
+[ONLINE] TVRI World
+URL:    https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8
+Status: Online (200)
+------------------------------------------------------------
+[ONLINE] TVRI Yogyakarta
+URL:    https://ott-balancer.tvri.go.id/live/eds/Jogjakarta/hls/Jogjakarta.m3u8
 Status: Online (200)
 ------------------------------------------------------------
 [ONLINE] UK: SKY SPORTS F1
@@ -713,7 +837,7 @@ Status: URL Error: timed out
 ------------------------------------------------------------
 [OFFLINE] MALEO TV
 URL:    https://play.accolamedia.id/accola/maleo.stream/playlist.m3u8
-Status: Error: The read operation timed out
+Status: HTTP Error 404
 ------------------------------------------------------------
 [OFFLINE] MOJI
 URL:    http://45.126.83.51/qwr9ew/s/s41/index.m3u8
@@ -759,6 +883,10 @@ Status: HTTP Error 403
 URL:    http://op-group1-swiftservehd-1.dens.tv/h/h18/index.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=My_Cinema_Europe_HD
 Status: HTTP Error 403
 ------------------------------------------------------------
+[OFFLINE] MY KIDZ
+URL:    http://op-group1-swiftservehd-1.dens.tv/h/h191/index.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=My_Kidz_HD
+Status: HTTP Error 403
+------------------------------------------------------------
 [OFFLINE] NEW KPOP
 URL:    https://8fd4e0b07d96480eb52382739cc8acce.mediatailor.us-east-1.amazonaws.com/v1/manifest/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_NewKID/76da8a34-9b9c-4920-b86f-934fbdaa2fcf/2.m3u8
 Status: HTTP Error 400
@@ -771,6 +899,10 @@ Status: HTTP Error 403
 URL:    http://smart.cityq.xyz:8278/SetOne/playlist.m3u8?tid=MD7D1616979216169792&ct=19249&tsum=228e9d46280149ba7ecfdce2acb28ad9
 Status: HTTP Error 403
 ------------------------------------------------------------
+[OFFLINE] OUTDOOR CHANNEL
+URL:    http://202.80.222.20/cdn/iptv/Tvod/001/channel2000161/1024.m3u8
+Status: Error: timed out
+------------------------------------------------------------
 [OFFLINE] ROCK ACTION
 URL:    http://op-group1-swiftservehd-1.dens.tv/h/h15/index.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=ROCK_Action
 Status: HTTP Error 403
@@ -779,12 +911,8 @@ Status: HTTP Error 403
 URL:    http://op-group1-swiftservehd-1.dens.tv/h/h16/01.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=ROCK_Entertainment_HD
 Status: HTTP Error 403
 ------------------------------------------------------------
-[OFFLINE] SCTV
-URL:    http://45.126.83.51/qwr9ew/s/s03/01.m3u8
-Status: URL Error: timed out
-------------------------------------------------------------
-[OFFLINE] SINDO NEWS TV
-URL:    http://202.80.222.20/cdn/iptv/Tvod/001/channel2000115/1024.m3u8
+[OFFLINE] SOCCER CHANNEL
+URL:    http://202.80.222.20/cdn/iptv/Tvod/001/channel2000144/1024.m3u8
 Status: Error: timed out
 ------------------------------------------------------------
 [OFFLINE] SONY SPORTS 1
