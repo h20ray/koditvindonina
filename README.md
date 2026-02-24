@@ -28,11 +28,11 @@ Kumpulan link streaming TV Indonesia untuk Kodi.
 ## � Status Channel Saat Ini
 
 <!-- STATUS_START -->
-**Terakhir Diupdate: 2026-02-24 19:02:56**
+**Terakhir Diupdate: 2026-02-24 19:12:58**
 
 - **Total Channel:** 206
-- **Online:** 🟢 163
-- **Offline:** 🔴 43
+- **Online:** 🟢 160
+- **Offline:** 🔴 46
 
 ### Daftar Channel Online
 - 🟢 ANIMAL PLANET
@@ -78,6 +78,7 @@ Kumpulan link streaming TV Indonesia untuk Kodi.
 - 🟢 CITRA DRAMA
 - 🟢 CLUB MTV
 - 🟢 CNBC INDONESIA
+- 🟢 CNN INDONESIA
 - 🟢 CREMA TV
 - 🟢 CRIME INVESTIGATION
 - 🟢 DANCE TV
@@ -115,22 +116,20 @@ Kumpulan link streaming TV Indonesia untuk Kodi.
 - 🟢 ID: BEIN SPORTS 2
 - 🟢 IMC INDONESIA MOVIE CHANNEL
 - 🟢 IMTV
-- 🟢 INDOSIAR
 - 🟢 INEWS
 - 🟢 JAKTV
 - 🟢 JTV
 - 🟢 KBS KIDS
 - 🟢 KIX
-- 🟢 KOMPAS TV
 - 🟢 LIFE
 - 🟢 LIFETIME
+- 🟢 LOVE NATURE 4K
 - 🟢 MAGNA TV
 - 🟢 MDTV
 - 🟢 MENTARI TV
 - 🟢 MENTARI TV
 - 🟢 METRO TV
 - 🟢 MNCTV
-- 🟢 MOJI
 - 🟢 MOONBUG KIDS
 - 🟢 MOTORVISION+
 - 🟢 MTV 00s
@@ -162,8 +161,6 @@ Kumpulan link streaming TV Indonesia untuk Kodi.
 - 🟢 ROCK ACTION
 - 🟢 ROCK ENTERTAINMENT
 - 🟢 RTV
-- 🟢 SCTV
-- 🟢 SINDO NEWS TV
 - 🟢 SMITHSONIAN CHANNEL
 - 🟢 SOCCER CHANNEL
 - 🟢 SPORTS TV
@@ -179,12 +176,12 @@ Kumpulan link streaming TV Indonesia untuk Kodi.
 - 🟢 THRILL
 - 🟢 THRILL
 - 🟢 TLC
+- 🟢 Trans 7
 - 🟢 TRANS TV
 - 🟢 TRAVELXP
 - 🟢 TV5 MONDE STYLE
 - 🟢 TVN MOVIES
 - 🟢 TVONE
-- 🟢 TVRI NASIONAL
 - 🟢 TVRI SPORT
 - 🟢 TVRI SPORT
 - 🟢 TVRI WORLD
@@ -213,10 +210,12 @@ Kumpulan link streaming TV Indonesia untuk Kodi.
 - 🔴 FAIL ARMY
 - 🔴 FASHION TV
 - 🔴 FASHION TV MIDNIGHT
+- 🔴 INDOSIAR
 - 🔴 INSPIRA TV
 - 🔴 JUST FOR LAUGHS
-- 🔴 LOVE NATURE 4K
+- 🔴 KOMPAS TV
 - 🔴 MALEO TV
+- 🔴 MOJI
 - 🔴 MTV BIGGEST POP
 - 🔴 MTV CLASSIC
 - 🔴 MTV FLOW LATINO
@@ -232,16 +231,17 @@ Kumpulan link streaming TV Indonesia untuk Kodi.
 - 🔴 ONE
 - 🔴 ROCK ACTION
 - 🔴 ROCK ENTERTAINMENT
+- 🔴 SCTV
+- 🔴 SINDO NEWS TV
 - 🔴 SONY SPORTS 1
 - 🔴 SONY SPORTS 2
 - 🔴 SONY SPORTS 3
 - 🔴 SONY SPORTS 4
 - 🔴 SONY SPORTS 5
 - 🔴 STAR MOVIES HD
-- 🔴 Trans 7
-- 🔴 TRANS TV
 - 🔴 TV5 MONDE ASIE
 - 🔴 TVN HD
+- 🔴 TVRI NASIONAL
 - 🔴 UNIFI SPORTS
 
 <!-- STATUS_END -->

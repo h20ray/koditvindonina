@@ -1,6 +1,6 @@
 Laporan Status Channel M3U - indonina.m3u
-Dibuat tanggal: 2026-02-24 19:02:56
-Total: 206 | Online: 163 | Offline: 43
+Dibuat tanggal: 2026-02-24 19:12:58
+Total: 206 | Online: 160 | Offline: 46
 ============================================================
 
 [ONLINE] ANIMAL PLANET
@@ -172,7 +172,11 @@ URL:    http://iptv.prosto.tv:7000/ch125/video.m3u8
 Status: Online (200)
 ------------------------------------------------------------
 [ONLINE] CNBC INDONESIA
-URL:    https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/index.m3u8
+URL:    https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/playlist.m3u8
+Status: Online (200)
+------------------------------------------------------------
+[ONLINE] CNN INDONESIA
+URL:    https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8
 Status: Online (200)
 ------------------------------------------------------------
 [ONLINE] CREMA TV
@@ -323,10 +327,6 @@ Status: Online (200)
 URL:    https://5bf7b725107e5.streamlock.net/imtv/imtv/playlist.m3u8
 Status: Online (200)
 ------------------------------------------------------------
-[ONLINE] INDOSIAR
-URL:    http://op-group1-swiftservehd-1.dens.tv/h/h235/02.m3u8
-Status: Online (200)
-------------------------------------------------------------
 [ONLINE] INEWS
 URL:    http://202.80.222.20/cdn/iptv/Tvod/001/channel2000128/1024.m3u8
 Status: Online (200)
@@ -347,16 +347,16 @@ Status: Online (200)
 URL:    http://202.80.222.20/cdn/iptv/Tvod/001/channel2000037/1024.m3u8
 Status: Online (200)
 ------------------------------------------------------------
-[ONLINE] KOMPAS TV
-URL:    http://op-group1-swiftservehd-1.dens.tv/h/h234/02.m3u8
-Status: Online (200)
-------------------------------------------------------------
 [ONLINE] LIFE
 URL:    http://202.80.222.20/cdn/iptv/Tvod/001/channel2000050/1024.m3u8
 Status: Online (200)
 ------------------------------------------------------------
 [ONLINE] LIFETIME
 URL:    http://202.80.222.20/cdn/iptv/Tvod/001/channel2000046/1024.m3u8
+Status: Online (200)
+------------------------------------------------------------
+[ONLINE] LOVE NATURE 4K
+URL:    http://202.80.222.20/cdn/iptv/Tvod/001/channel2000127/1024.m3u8
 Status: Online (200)
 ------------------------------------------------------------
 [ONLINE] MAGNA TV
@@ -381,10 +381,6 @@ Status: Online (200)
 ------------------------------------------------------------
 [ONLINE] MNCTV
 URL:    http://202.80.222.20/cdn/iptv/Tvod/001/channel2000106/1024.m3u8
-Status: Online (200)
-------------------------------------------------------------
-[ONLINE] MOJI
-URL:    http://op-group1-swiftservehd-1.dens.tv/h/h207/02.m3u8
 Status: Online (200)
 ------------------------------------------------------------
 [ONLINE] MOONBUG KIDS
@@ -464,11 +460,11 @@ URL:    http://202.80.222.20/cdn/iptv/Tvod/001/channel2000154/1024.m3u8
 Status: Online (200)
 ------------------------------------------------------------
 [ONLINE] OUTDOOR CHANNEL
-URL:    https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8
+URL:    http://202.80.222.20/cdn/iptv/Tvod/001/channel2000161/1024.m3u8
 Status: Online (200)
 ------------------------------------------------------------
 [ONLINE] OUTDOOR CHANNEL
-URL:    http://202.80.222.20/cdn/iptv/Tvod/001/channel2000161/1024.m3u8
+URL:    https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8
 Status: Online (200)
 ------------------------------------------------------------
 [ONLINE] OUTDOOR CHANNEL
@@ -488,7 +484,7 @@ URL:    http://59d7d6f47d7fc.streamlock.net/canale51/canale51/playlist.m3u8?chec
 Status: Online (200)
 ------------------------------------------------------------
 [ONLINE] RCTI
-URL:    https://1s1.rctiplus.id/rcti-sdi.m3u8?auth_key=1771934302-0e8eb34a68f13e7aa3a97eaf2d53d32d-0-f871bc5ec33c8d29e26edb0a31c070f6
+URL:    https://raw.githubusercontent.com/Arrasyid22/inaldie/main/RCTI.m3u8
 Status: Online (200)
 ------------------------------------------------------------
 [ONLINE] RED BULL TV
@@ -509,14 +505,6 @@ Status: Online (200)
 ------------------------------------------------------------
 [ONLINE] RTV
 URL:    https://op-group1-swiftservehd-1.dens.tv/h/h10/01.m3u8
-Status: Online (200)
-------------------------------------------------------------
-[ONLINE] SCTV
-URL:    http://op-group1-swiftservehd-1.dens.tv/h/h217/02.m3u8
-Status: Online (200)
-------------------------------------------------------------
-[ONLINE] SINDO NEWS TV
-URL:    http://202.80.222.20/cdn/iptv/Tvod/001/channel2000115/1024.m3u8
 Status: Online (200)
 ------------------------------------------------------------
 [ONLINE] SMITHSONIAN CHANNEL
@@ -579,8 +567,12 @@ Status: Online (200)
 URL:    https://bit.ly/tlctlctl
 Status: Online (200)
 ------------------------------------------------------------
+[ONLINE] Trans 7
+URL:    https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8
+Status: Online (200)
+------------------------------------------------------------
 [ONLINE] TRANS TV
-URL:    http://202.80.222.20/cdn/iptv/Tvod/001/channel2000009/1024.m3u8
+URL:    https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8
 Status: Online (200)
 ------------------------------------------------------------
 [ONLINE] TRAVELXP
@@ -597,10 +589,6 @@ Status: Online (200)
 ------------------------------------------------------------
 [ONLINE] TVONE
 URL:    http://202.80.222.20/cdn/iptv/Tvod/001/channel2000018/1024.m3u8
-Status: Online (200)
-------------------------------------------------------------
-[ONLINE] TVRI NASIONAL
-URL:    https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8
 Status: Online (200)
 ------------------------------------------------------------
 [ONLINE] TVRI SPORT
@@ -707,6 +695,10 @@ Status: URL Error: [Errno 11001] getaddrinfo failed
 URL:    https://fash1043.cloudycdn.services/slive/ftv_ftv_midnite_k1y_27049_midnite_secr_108_hls.smil/media.m3u8
 Status: HTTP Error 404
 ------------------------------------------------------------
+[OFFLINE] INDOSIAR
+URL:    http://210.210.155.35/qwr9ew/s/s04/01.m3u8
+Status: URL Error: timed out
+------------------------------------------------------------
 [OFFLINE] INSPIRA TV
 URL:    https://inspiratv.siar.us/inspiratv/live/playlist.m3u8
 Status: HTTP Error 404
@@ -715,13 +707,17 @@ Status: HTTP Error 404
 URL:    https://d1geua7w9myu7w.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ccslktftyouus-ssai-prd/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=1YNY&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai=SSSLIVE
 Status: URL Error: [Errno 11001] getaddrinfo failed
 ------------------------------------------------------------
-[OFFLINE] LOVE NATURE 4K
-URL:    http://202.80.222.20/cdn/iptv/Tvod/001/channel2000127/1024.m3u8
-Status: Error: timed out
+[OFFLINE] KOMPAS TV
+URL:    http://210.210.155.35/qwr9ew/s/s104/index.m3u8
+Status: URL Error: timed out
 ------------------------------------------------------------
 [OFFLINE] MALEO TV
 URL:    https://play.accolamedia.id/accola/maleo.stream/playlist.m3u8
-Status: HTTP Error 404
+Status: Error: The read operation timed out
+------------------------------------------------------------
+[OFFLINE] MOJI
+URL:    http://45.126.83.51/qwr9ew/s/s41/index.m3u8
+Status: URL Error: timed out
 ------------------------------------------------------------
 [OFFLINE] MTV BIGGEST POP
 URL:    http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5d14fd1a252d35decbc4080c/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
@@ -783,6 +779,14 @@ Status: HTTP Error 403
 URL:    http://op-group1-swiftservehd-1.dens.tv/h/h16/01.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=ROCK_Entertainment_HD
 Status: HTTP Error 403
 ------------------------------------------------------------
+[OFFLINE] SCTV
+URL:    http://45.126.83.51/qwr9ew/s/s03/01.m3u8
+Status: URL Error: timed out
+------------------------------------------------------------
+[OFFLINE] SINDO NEWS TV
+URL:    http://202.80.222.20/cdn/iptv/Tvod/001/channel2000115/1024.m3u8
+Status: Error: timed out
+------------------------------------------------------------
 [OFFLINE] SONY SPORTS 1
 URL:    https://tataplay.slivcdn.com//hls/live/2011747/TEN1HD/master.m3u8
 Status: URL Error: [Errno 11001] getaddrinfo failed
@@ -807,14 +811,6 @@ Status: URL Error: [Errno 11001] getaddrinfo failed
 URL:    http://66.90.99.154:8278/starmovies_raj/playlist.m3u8?tid=mc42afe745533&ct=11448811&tsum=6df068af80da25d26a455054d0f909a6
 Status: HTTP Error 403
 ------------------------------------------------------------
-[OFFLINE] Trans 7
-URL:    https://cdn10jtedge.indihometv.com/atm/DASH/trans7/manifest.mpd
-Status: HTTP Error 403
-------------------------------------------------------------
-[OFFLINE] TRANS TV
-URL:    https://livestream.transtv.co.id/stream/live/ttv.m3u8
-Status: Error: The read operation timed out
-------------------------------------------------------------
 [OFFLINE] TV5 MONDE ASIE
 URL:    http://op-group1-swiftservehd-1.dens.tv/h/h312/index.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=TV5MONDE_ASIE
 Status: HTTP Error 403
@@ -822,6 +818,10 @@ Status: HTTP Error 403
 [OFFLINE] TVN HD
 URL:    http://op-group1-swiftservehd-1.dens.tv/h/h20/index.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=tvN_HD
 Status: HTTP Error 403
+------------------------------------------------------------
+[OFFLINE] TVRI NASIONAL
+URL:    http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRINasional)/index.m3u8
+Status: URL Error: [Errno 11001] getaddrinfo failed
 ------------------------------------------------------------
 [OFFLINE] UNIFI SPORTS
 URL:    https://unifi-live01.secureswiftcontent.com/UnifiHD/live11.mpd
