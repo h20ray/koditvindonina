@@ -8,7 +8,10 @@ Kumpulan link streaming TV Indonesia untuk Kodi.
 2. Pastikan **IPTV Simple Client** sudah terinstall
 3. Pilih Configure di IPTV Simple Client
 4. Add **Add add-on configuration**
-5. Masukan URL M3U nya
+5. Masukan URL M3U ini:
+   ```text
+   https://raw.githubusercontent.com/h20ray/koditvindonina/main/indonina.m3u
+   ```
 
 
 ## Channel
