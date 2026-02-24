@@ -25,7 +25,7 @@ Kumpulan link streaming TV Indonesia untuk Kodi.
 - KompasTV
 - dan banyak lagi
 
-## � Status Channel Saat Ini
+## Status Channel Saat Ini
 
 <!-- STATUS_START -->
 **Terakhir Diupdate: 2026-02-24 19:12:58**
