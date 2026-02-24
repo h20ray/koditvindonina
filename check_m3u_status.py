@@ -44,61 +44,98 @@ def check_url(url, user_agent=None, referrer=None, timeout=10):
 
 
 def parse_m3u(file_path):
+    """
+    Parse file M3U dan balikin:
+    - daftar channel (nama, url, UA, referrer, index, dan raw lines per channel)
+    - header_lines global (misalnya #EXTM3U dan komentar sebelum channel pertama)
+    """
     channels = []
+    header_lines = []
     with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
-        lines = f.readlines()
+        raw_lines = f.readlines()
         
     current_name = ""
     current_ua = None
     current_ref = None
+    current_block_lines = []
+    seen_first_channel = False
+    channel_index = 0
     
-    for line in lines:
-        line = line.strip()
-        if not line:
+    for raw_line in raw_lines:
+        line = raw_line.rstrip("\n")
+        stripped = line.strip()
+        
+        # Kumpulin header global sebelum channel pertama
+        if not seen_first_channel:
+            if stripped.startswith("#EXTINF:") or (stripped and not stripped.startswith("#")):
+                seen_first_channel = True
+            else:
+                header_lines.append(line)
+                continue
+        
+        if not stripped:
             continue
             
-        if line.startswith("#EXTINF:"):
-            # Ambil nama channel dari baris EXTINF
-            parts = line.split(",", 1)
+        if stripped.startswith("#EXTINF:"):
+            # Kalau ada block channel sebelumnya yang belum disimpan (tanpa URL valid), reset saja
+            if current_block_lines and current_name and current_block_lines:
+                current_block_lines = []
+            
+            current_block_lines = [line]
+            parts = stripped.split(",", 1)
             if len(parts) > 1:
                 current_name = parts[1].strip()
-            # Reset header buat channel yang baru
+            else:
+                current_name = ""
             current_ua = None
             current_ref = None
             
-        elif line.startswith("#EXTVLCOPT:http-user-agent="):
-            current_ua = line.split("=", 1)[1].strip()
+        elif stripped.startswith("#EXTVLCOPT:http-user-agent="):
+            current_ua = stripped.split("=", 1)[1].strip()
+            if current_block_lines is not None:
+                current_block_lines.append(line)
             
-        elif line.startswith("#EXTVLCOPT:http-referrer="):
-            current_ref = line.split("=", 1)[1].strip()
+        elif stripped.startswith("#EXTVLCOPT:http-referrer="):
+            current_ref = stripped.split("=", 1)[1].strip()
+            if current_block_lines is not None:
+                current_block_lines.append(line)
             
-        elif not line.startswith("#"):
-            url = line
+        elif not stripped.startswith("#"):
+            url = stripped
             
             # Abaikan URL yang cuma marker kategori
             if url.startswith("https://///") or url.startswith("http://///") or url.strip() == "":
                 current_name = ""
                 current_ua = None
                 current_ref = None
+                current_block_lines = []
                 continue
                 
             # Kalo gak ada namanya (biasanya gara-gara lupa dikasih #EXTINF), kita skip aja biar daftar tetep rapi
             if not current_name:
+                current_block_lines = []
                 continue
-                
-            # Ini URL beneran, jadi kita masukin ke daftar channel
+            
+            if current_block_lines is not None:
+                current_block_lines.append(line)
+            
             channels.append({
+                'index': channel_index,
                 'name': current_name,
                 'url': url,
                 'user_agent': current_ua,
-                'referrer': current_ref
+                'referrer': current_ref,
+                'lines': list(current_block_lines),
             })
+            channel_index += 1
+            
             # Reset setelah dapet URL buat siap-siap ke channel berikutnya
             current_name = ""
             current_ua = None
             current_ref = None
+            current_block_lines = []
             
-    return channels
+    return channels, header_lines
 
 
 def process_channel(idx, total, channel):
@@ -158,11 +195,64 @@ def update_readme(results, total, online, offline):
         f.write(new_content)
 
 
+def derive_offline_filename(m3u_path):
+    root, ext = os.path.splitext(m3u_path)
+    if not ext:
+        ext = ".m3u"
+    return f"{root}_offline{ext}"
+
+
+def write_split_m3u(input_m3u, header_lines, channels, status_by_index, online_file=None, offline_file=None):
+    """
+    Tulis ulang playlist:
+    - file online: cuma channel yang statusnya online
+    - file offline: cuma channel yang statusnya offline
+    Struktur per channel (EXTINF, EXTVLCOPT, URL) dipertahankan.
+    """
+    if online_file is None:
+        online_file = input_m3u
+    if offline_file is None:
+        offline_file = derive_offline_filename(input_m3u)
+    
+    # Pastikan ada minimal satu header, dan jaga #EXTM3U di paling atas
+    def normalize_header(lines):
+        if not lines:
+            return ["#EXTM3U"]
+        if not any(l.strip().upper().startswith("#EXTM3U") for l in lines):
+            return ["#EXTM3U"] + lines
+        return lines
+    
+    header_lines = normalize_header(header_lines)
+    
+    online_channels = []
+    offline_channels = []
+    for ch in sorted(channels, key=lambda c: c.get('index', 0)):
+        idx = ch.get('index', 0)
+        is_online = status_by_index.get(idx, False)
+        if is_online:
+            online_channels.append(ch)
+        else:
+            offline_channels.append(ch)
+    
+    def write_playlist(path, chan_list):
+        with open(path, "w", encoding="utf-8") as f:
+            for hl in header_lines:
+                f.write(hl.rstrip("\n") + "\n")
+            for ch in chan_list:
+                for ln in ch.get('lines', []):
+                    f.write(ln.rstrip("\n") + "\n")
+    
+    write_playlist(online_file, online_channels)
+    write_playlist(offline_file, offline_channels)
+
+
 def main():
     parser = argparse.ArgumentParser(description="M3U Channel Status Checker (Versi Indo)")
     parser.add_argument("m3u_file", nargs='?', default="indonina.m3u", help="Path ke file M3U")
     parser.add_argument("--workers", type=int, default=15, help="Jumlah worker buat ngecek barengan (default 15)")
     parser.add_argument("--output", type=str, default="status_report.txt", help="File output buat nyimpen hasil laporan")
+    parser.add_argument("--online-file", type=str, default=None, help="File output untuk channel ONLINE saja (default: overwrite m3u_file)")
+    parser.add_argument("--offline-file", type=str, default=None, help="File output untuk channel OFFLINE saja (default: <nama>_offline.m3u)")
     args = parser.parse_args()
     
     # Coba aktifin escape codes VT100 di Windows biar warnanya muncul
@@ -171,7 +261,7 @@ def main():
     
     print(f"Lagi baca file '{args.m3u_file}'...")
     try:
-        channels = parse_m3u(args.m3u_file)
+        channels, header_lines = parse_m3u(args.m3u_file)
     except FileNotFoundError:
         print(f"Yah, filenya gak ketemu: {args.m3u_file}")
         return
@@ -220,7 +310,7 @@ def main():
             f.write(f"URL:    {channel['url']}\n")
             f.write(f"Status: {status_msg}\n")
             f.write("-" * 60 + "\n")
-
+        
     print(f"Sip! Laporan teks lengkapnya udah disimpen ke '{args.output}'")
     
     # Update README
@@ -230,6 +320,23 @@ def main():
         print("Sip, README.md udah beres diupdate!")
     except Exception as e:
         print(f"Waduh, gagal update README.md: {e}")
+    
+    # Tulis ulang M3U: online only + offline companion
+    print("Lagi split playlist jadi online & offline...")
+    try:
+        status_by_index = {}
+        for ch, is_online, _msg in results:
+            idx = ch.get("index", 0)
+            # Kalau channel dengan index sama dicek lebih dari sekali, terakhir yang kepake
+            status_by_index[idx] = is_online
+        
+        online_file = args.online_file if args.online_file else args.m3u_file
+        offline_file = args.offline_file if args.offline_file else derive_offline_filename(args.m3u_file)
+        
+        write_split_m3u(args.m3u_file, header_lines, channels, status_by_index, online_file=online_file, offline_file=offline_file)
+        print(f"Sip! '{online_file}' sekarang cuma isi channel ONLINE, dan '{offline_file}' isi channel OFFLINE.")
+    except Exception as e:
+        print(f"Waduh, gagal split playlist online/offline: {e}")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.koditvindonina" name="Kodi TV Indonina Proxy" version="1.0.0" provider-name="H20Ray">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.urllib3" version="1.22"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="un">Dynamic token resolver for Indonesian Live TV</summary>
+        <description lang="un">A companion add-on for the Kodi TV Indonina playlist. This add-on dynamically resolves M3U8 URLs with expiring tokens (e.g. RCTI+, Vidio) directly into Kodi's player.</description>
+        <platform>all</platform>
+        <license>MIT</license>
+    </extension>
+</addon>

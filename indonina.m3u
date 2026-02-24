@@ -1,14 +1,8 @@
 #EXTM3U
 #EXTINF:0 tvg-id="///TVNASIONAL/////.id" tvg-logo="" group-title="Lainnya",/// TV NASIONAL /////
 #EXTINF:902 tvg-id="RCTI.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/rcti.png" group-title="Lainnya",RCTI
-#EXTVLCOPT:http-referrer=https://visionplus.id
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=9ba3e153ef8956d6e2b0684fcf74f58f:dbc28cb5c6426080f984a5b6d436bb30
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://d1abp075u76pbq.cloudfront.net/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd|Referer=https://www.visionplus.id/
+https://1s1.rctiplus.id/rcti2023-avc1_2500000=17-mp4a_128000=2.m3u8
 #EXTINF:0 tvg-id="MNCTV.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/mnctv.png" group-title="Lainnya",MNCTV
 #EXTVLCOPT:http-referrer=https://visionplus.id
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
@@ -28,11 +22,11 @@ https://d1abp075u76pbq.cloudfront.net/live/eds/MNCTV-HD/sa_dash_vmx/MNCTV-HD.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://d1abp075u76pbq.cloudfront.net/live/eds/GTV-HD/sa_dash_vmx/GTV-HD.mpd|Referer=https://www.visionplus.id/
 #EXTINF:0 tvg-id="SCTV.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/sctv.png" group-title="Lainnya",SCTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64)
-https://203.77.246.2:443/udp/239.1.1.108:5000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+http://op-group1-swiftservehd-1.dens.tv/h/h217/02.m3u8
 #EXTINF:0 tvg-id="INDOSIAR.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/indosiar.png" group-title="Lainnya",INDOSIAR
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64)
-https://203.77.246.2:443/udp/239.1.1.110:5000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+http://op-group1-swiftservehd-1.dens.tv/h/h235/02.m3u8
 #EXTINF:0 tvg-id="ANTV.id" tvg-logo="https://raw.githubusercontent.com/h20ray/koditvindonina/main/icons/antv.png" group-title="Lainnya",ANTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64)
 https://op-group1-swiftservehd-1.dens.tv/s/s07/index.m3u8

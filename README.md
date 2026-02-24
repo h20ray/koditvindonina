@@ -28,6 +28,41 @@ Kumpulan link streaming TV Indonesia untuk Kodi.
 - KompasTV
 - dan banyak lagi
 
+## Cek & Split Status Channel (Online / Offline)
+
+Kamu bisa cek semua URL di `indonina.m3u` dan otomatis misahin channel **online** dan **offline** pake script Python ini:
+
+```bash
+python check_m3u_status.py
+```
+
+Script ini akan:
+
+- **ngetes semua URL** di file M3U (default `indonina.m3u`) lengkap dengan `User-Agent` dan `Referer` dari file.
+- **update blok status** di README ini (bagian di bawah).
+- **nulis ulang `indonina.m3u`** supaya isinya **hanya channel online**.
+- **bikin `indonina_offline.m3u`** yang isinya semua channel **offline**.
+
+Opsi tambahan (opsional, kalau mau custom):
+
+- **Ganti file input**:
+
+  ```bash
+  python check_m3u_status.py mylist.m3u
+  ```
+
+- **Atur nama file output online/offline**:
+
+  ```bash
+  python check_m3u_status.py mylist.m3u --online-file my_online.m3u --offline-file my_offline.m3u
+  ```
+
+- **Atur jumlah worker paralel** (default 15):
+
+  ```bash
+  python check_m3u_status.py --workers 25
+  ```
+
 ## Status Channel Saat Ini
 
 <!-- STATUS_START -->
